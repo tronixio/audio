@@ -1,0 +1,7 @@
+.DS_Store
+Docs/
+*.kicad_prl
+*.kicad_sch-bak
+Kicad/*/gerber/
+Kicad/*/*backups/
+Kicad/*/fp-info-cache
