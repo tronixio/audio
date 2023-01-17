@@ -1,7 +1,7 @@
-# Audio.
+# Audio
 
-## DAC.
+## DAC
 
-- PCM1794
-- PCM1795
-- I/V Stage
+### PCM1794
+
+- Schematic
