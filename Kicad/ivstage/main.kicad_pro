@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.0,
-          "width": 1.2
+          "drill": 1.5,
+          "height": 3.0,
+          "width": 3.0
         },
         "silk_line_width": 0.19999999999999998,
         "silk_text_italic": false,
@@ -55,12 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_overlap|116718095|72075428|eb33e5d9-5d43-4e3a-919a-d4aa62e925ab|6d8498c2-f953-492a-b4e5-79d1dbf36fb1",
-        "silk_overlap|116718095|72075428|eb33e5d9-5d43-4e3a-919a-d4aa62e925ab|a88b809b-e92a-43d9-9a03-e5ff34ab26a3",
-        "silk_overlap|121798095|72037333|6db6617e-55fc-493b-bd41-9ae1ddbffd04|6d8498c2-f953-492a-b4e5-79d1dbf36fb1",
-        "silk_overlap|121798095|72037333|6db6617e-55fc-493b-bd41-9ae1ddbffd04|a88b809b-e92a-43d9-9a03-e5ff34ab26a3"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -428,7 +423,32 @@
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "CLASS-03",
-        "nets": [],
+        "nets": [
+          "AGND",
+          "GND",
+          "Net-(C1-Pad2)",
+          "Net-(C10-Pad2)",
+          "Net-(C11-Pad1)",
+          "Net-(C11-Pad2)",
+          "Net-(C12-Pad1)",
+          "Net-(C12-Pad2)",
+          "Net-(C13-Pad2)",
+          "Net-(C14-Pad1)",
+          "Net-(C14-Pad2)",
+          "Net-(C15-Pad2)",
+          "Net-(C2-Pad1)",
+          "Net-(C2-Pad2)",
+          "Net-(C20-Pad2)",
+          "Net-(C3-Pad1)",
+          "Net-(C3-Pad2)",
+          "Net-(C4-Pad2)",
+          "Net-(C5-Pad1)",
+          "Net-(C5-Pad2)",
+          "Net-(C6-Pad2)",
+          "Net-(C7-Pad2)",
+          "unconnected-(U2-Pad1)",
+          "unconnected-(U4-Pad1)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
@@ -466,9 +486,7 @@
         "name": "CLASS-05",
         "nets": [
           "+15V",
-          "-15V",
-          "AGND",
-          "GND"
+          "-15V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
