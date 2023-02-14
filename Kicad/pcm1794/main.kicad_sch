@@ -1850,11 +1850,11 @@
         )
       )
     )
-    (symbol "tronixio:TI-PCM1794-SSOP-28" (pin_names (offset 0.5)) (in_bom yes) (on_board yes)
+    (symbol "tronixio:TI-PCM1794A-SSOP-28" (pin_names (offset 0.5)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 17.78 3.81 0)
         (effects (font (size 1.15 1.15)))
       )
-      (property "Value" "TI-PCM1794-SSOP-28" (id 1) (at 17.78 -49.53 0)
+      (property "Value" "TI-PCM1794A-SSOP-28" (id 1) (at 17.78 -49.53 0)
         (effects (font (size 1.15 1.15)))
       )
       (property "Footprint" "tronixio:SSOP-28" (id 2) (at 17.78 -53.34 0)
@@ -1866,13 +1866,13 @@
       (property "Mouser" "595-PCM1794ADBR" (id 4) (at 17.78 -58.42 0)
         (effects (font (size 1 1)) hide)
       )
-      (symbol "TI-PCM1794-SSOP-28_0_1"
+      (symbol "TI-PCM1794A-SSOP-28_0_1"
         (rectangle (start 2.54 2.54) (end 33.02 -48.26)
           (stroke (width 0.4) (type default) (color 0 0 0 0))
           (fill (type background))
         )
       )
-      (symbol "TI-PCM1794-SSOP-28_1_1"
+      (symbol "TI-PCM1794A-SSOP-28_1_1"
         (pin input line (at 0 -22.86 0) (length 2.54)
           (name "MONO" (effects (font (size 1 1))))
           (number "1" (effects (font (size 1 1))))
@@ -5070,13 +5070,13 @@
     (pin "2" (uuid d1ae6c21-4c39-4363-8090-7c8390db1ebc))
   )
 
-  (symbol (lib_id "tronixio:TI-PCM1794-SSOP-28") (at 142.24 43.18 0) (unit 1)
+  (symbol (lib_id "tronixio:TI-PCM1794A-SSOP-28") (at 142.24 43.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d9c26697-b884-4e04-b1e7-1c9b914eb6cd)
     (property "Reference" "U1" (id 0) (at 144.78 39.37 0)
       (effects (font (size 1.15 1.15)) (justify left))
     )
-    (property "Value" "PCM1794" (id 1) (at 175.26 39.37 0)
+    (property "Value" "PCM1794A" (id 1) (at 175.26 39.37 0)
       (effects (font (size 1.15 1.15)) (justify right))
     )
     (property "Footprint" "tronixio:SSOP-28" (id 2) (at 160.02 96.52 0)
@@ -5769,7 +5769,7 @@
       (reference "TP2") (unit 1) (value "GND") (footprint "tronixio:KEYSTONE-5006")
     )
     (path "/d9c26697-b884-4e04-b1e7-1c9b914eb6cd"
-      (reference "U1") (unit 1) (value "PCM1794") (footprint "tronixio:SSOP-28")
+      (reference "U1") (unit 1) (value "PCM1794A") (footprint "tronixio:SSOP-28")
     )
     (path "/e30fd1db-14d9-44e3-bfe4-40c04bdcae85"
       (reference "U2") (unit 1) (value "BD933N1WG") (footprint "tronixio:SOT-23-5")
