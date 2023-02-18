@@ -1,0 +1,22 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6d202448-4c55-47d2-93ef-17644c202519)
+
+  (paper "A4")
+
+  (title_block
+    (title "DAC")
+    (date "01/2023")
+    (rev "A")
+    (comment 1 "Preampifier A/D")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "PCM179x\nPCM514x\nESS???" (at 208.28 185.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 52a90f90-f114-43fb-834a-e86c066d0980)
+  )
+)

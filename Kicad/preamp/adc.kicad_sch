@@ -1,0 +1,22 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6d202448-4c55-47d2-93ef-17644c202519)
+
+  (paper "A4")
+
+  (title_block
+    (title "ADC")
+    (date "01/2023")
+    (rev "A")
+    (comment 1 "Preampifier A/D")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "PCM186x" (at 205.74 185.42 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid a7a6c45f-f860-49d1-a563-f7450328b4dc)
+  )
+)

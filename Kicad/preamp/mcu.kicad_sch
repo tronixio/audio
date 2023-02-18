@@ -1,0 +1,22 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6d202448-4c55-47d2-93ef-17644c202519)
+
+  (paper "A4")
+
+  (title_block
+    (title "MCU")
+    (date "01/2023")
+    (rev "A")
+    (comment 1 "Preampifier A/D")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "PIC16F18877" (at 203.2 187.96 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 599faeb8-bd7f-40b4-8b45-e97d3d80a76e)
+  )
+)
