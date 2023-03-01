@@ -1,0 +1,22 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3ad11f2b-f35a-43ba-b33d-e79339cc2d9d)
+
+  (paper "A4")
+
+  (title_block
+    (title "I/V Stage")
+    (date "01/2023")
+    (rev "A")
+    (comment 1 "DAC PCM1795/6")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "DRAFT" (at 208.28 185.42 0)
+    (effects (font (size 3 3)) (justify left bottom))
+    (uuid 530a2301-881a-4a7b-9fcc-df91f2b08567)
+  )
+)
