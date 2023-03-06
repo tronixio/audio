@@ -8,7 +8,7 @@
     (title "I/V Stage")
     (date "01/2023")
     (rev "A")
-    (comment 1 "DAC PCM1796")
+    (comment 1 "SRC4392")
   )
 
   (lib_symbols
