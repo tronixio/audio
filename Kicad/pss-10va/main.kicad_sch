@@ -10194,7 +10194,7 @@
 			)
 		)
 		(property "Value" "1N4002"
-			(at 203.835 66.04 90)
+			(at 203.835 66.675 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11159,7 +11159,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 89.535 99.695 0)
+			(at 89.535 100.33 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11872,7 +11872,7 @@
 		(dnp no)
 		(uuid "6a14574a-4cbf-4d2d-8421-dd3e97277dd6")
 		(property "Reference" "C4"
-			(at 88.265 85.725 0)
+			(at 88.265 86.36 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
