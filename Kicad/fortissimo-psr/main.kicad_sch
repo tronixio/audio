@@ -12390,7 +12390,7 @@
 			)
 		)
 		(property "Description" "Fuse - 215 Series - 5x20mm Ceramic Body Time-Lag Cartridge Fuse"
-			(at 236.22 177.8 0)
+			(at 236.22 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12401,7 +12401,7 @@
 			)
 		)
 		(property "Mouser" "576-0215015.MXP"
-			(at 236.22 187.96 0)
+			(at 236.22 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16574,7 +16574,7 @@
 			)
 		)
 		(property "Description" "Fuse - 215 Series - 5x20mm Ceramic Body Time-Lag Cartridge Fuse"
-			(at 241.3 177.8 0)
+			(at 241.3 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16585,7 +16585,7 @@
 			)
 		)
 		(property "Mouser" "576-0215015.MXP"
-			(at 241.3 187.96 0)
+			(at 241.3 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24720,7 +24720,7 @@
 				)
 			)
 		)
-		(property "Value" "~35VAC"
+		(property "Value" "~50VAC"
 			(at 33.02 101.6 0)
 			(show_name no)
 			(do_not_autoplace yes)

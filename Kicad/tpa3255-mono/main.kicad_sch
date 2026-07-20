@@ -3567,6 +3567,16 @@
 		)
 		(uuid "77b600a5-3fc7-41cf-8b9d-cf68a28cf26e")
 	)
+	(text "Changer C"
+		(exclude_from_sim no)
+		(at 70.485 88.265 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "b1166dd1-2ddf-45b4-a4a9-3db3276618c7")
+	)
 	(text "Todo:\n- ajouter les connecteurs F\n- changer connecteurs\n  - MCU\n  - Analog input\n- revoir alimentation passer de 50v a 15v puis 12v\n- tpa3244 separation des gnd\n- HP faire des plots pour vissses cuivres (keyston 1272 ou wurth)\n- ajouter TP\n\n- https://www.ti.com/lit/ug/slau742/slau742.pdf\n- https://www.ti.com/lit/an/slaa719/slaa719.pdf?ts=1783786618881"
 		(exclude_from_sim no)
 		(at 18.415 191.77 0)
