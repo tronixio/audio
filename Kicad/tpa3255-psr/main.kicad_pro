@@ -776,13 +776,13 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -800,7 +800,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -926,7 +926,7 @@
         "uuid": "5f96646c-bdf6-47e2-a01d-8588cc95727b"
       }
     ],
-    "used_designators": "H1,LED1-2,R1-36,TP1-9,P1-2,#FLG1-7,K1-4,C1-25,#PWR1-24,D1-10,U1-2,Q1-13,F1-4,HS1-6,MH1-6",
+    "used_designators": "TP1-5,#FLG1-4,#PWR1-14,C1-12,U1,D1-7,F1-3,HS1-3,MH1-6,Q1-6,K1-4,H1,LED1,R1-18,P1",
     "variants": []
   },
   "sheets": [
