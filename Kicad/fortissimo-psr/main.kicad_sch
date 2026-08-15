@@ -7898,7 +7898,7 @@
 		)
 		(uuid "3cc70d46-5b47-498d-bb09-eec78995e06a")
 	)
-	(text "TODO:\n\n- Changer porte fusible 693-0031.8265\n- Changer Diode"
+	(text "TODO:\n\n- Changer Diode"
 		(exclude_from_sim no)
 		(at 15.875 16.51 0)
 		(effects

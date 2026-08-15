@@ -926,7 +926,7 @@
         "uuid": "5f96646c-bdf6-47e2-a01d-8588cc95727b"
       }
     ],
-    "used_designators": "H1,LED1-2,R1-36,TP1-9,P1-2,#FLG1-7,K1-4,C1-25,#PWR1-24,D1-10,U1-2,Q1-13,F1-4,HS1-6,MH1-6",
+    "used_designators": "TP1-9,R1-36,#FLG1-7,P1-2,C1-25,K1-4,#PWR1-24,F1-4,Q1-13,MH1-6,HS1-6,D1-10,U1-2,H1,LED1-2",
     "variants": []
   },
   "sheets": [
