@@ -2709,6 +2709,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "tronixio:MOUNTING-HOLE-2MM"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Value" "MOUNTING-HOLE-2MM"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MOUNTING-HOLE-2MM_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.524)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy -1.016 1.016)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "tronixio:MOUNTING-HOLE-3MM-MASK"
 			(pin_numbers
 				(hide yes)
@@ -7114,7 +7221,7 @@
 	)
 	(text "Notes:\n- Elektor Linear Voltage Regulator: https://www.elektormagazine.com/magazine/elektor-312/62153\n- TR: Farnel - VIGORTRONIX VTX-146-300-235\n\nMeasures:\n- +VCC/+50V: +51.5V\n- +33V6: +33V44\n- +40V: +38V48/+41V03"
 		(exclude_from_sim no)
-		(at 57.15 189.865 0)
+		(at 15.875 194.31 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -7573,11 +7680,11 @@
 		(uuid "f5c6d2bb-19f5-4440-abe7-e83b8178a91a")
 	)
 	(no_connect
-		(at 30.48 185.42)
+		(at 182.88 129.54)
 		(uuid "474a6660-3e5b-42b1-aef8-028410bac874")
 	)
 	(no_connect
-		(at 25.4 185.42)
+		(at 177.8 129.54)
 		(uuid "c52fb2d7-d1d9-4812-813e-3ee24faa3272")
 	)
 	(wire
@@ -9401,6 +9508,158 @@
 		(uuid "fc350334-695c-4b63-b0c5-5903b619aaef")
 	)
 	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 259.08 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02cc8551-aeab-4f1b-938a-1f93a90f099c")
+		(property "Reference" "H8"
+			(at 259.08 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 259.08 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 259.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 254 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05c45131-6402-4997-b87a-09edc301291c")
+		(property "Reference" "H4"
+			(at 254 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 254 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 254 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:RESISTOR-xxxx-0R1-5P-5W")
 		(at 208.28 53.34 0)
 		(unit 1)
@@ -9516,7 +9775,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:MOUNTING-HOLE-3MM-MASK")
-		(at 248.92 177.8 0)
+		(at 264.16 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9527,7 +9786,7 @@
 		(fields_autoplaced yes)
 		(uuid "0791f543-ed3e-4056-91a3-df5cbf013bb1")
 		(property "Reference" "MH1"
-			(at 248.92 175.26 0)
+			(at 264.16 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9538,7 +9797,7 @@
 			)
 		)
 		(property "Value" "MOUNTING-HOLE-3MM-MASK"
-			(at 248.92 180.34 0)
+			(at 264.16 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +9808,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:MOUNTING-HOLE-3MM-MASK"
-			(at 248.92 182.88 0)
+			(at 264.16 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9560,7 +9819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 185.42 0)
+			(at 264.16 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9571,7 +9830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 177.8 0)
+			(at 264.16 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9776,7 +10035,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:MOLEX-MINI-FIT-F-2X03")
-		(at 241.3 177.8 0)
+		(at 254 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9786,8 +10045,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14d10f1a-4612-4445-ba25-decd668fe9ae")
-		(property "Reference" "K3"
-			(at 241.3 175.26 0)
+		(property "Reference" "K4"
+			(at 254 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9798,7 +10057,7 @@
 			)
 		)
 		(property "Value" "MINI-FIT"
-			(at 241.3 180.34 0)
+			(at 254 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9809,7 +10068,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:MOLEX-39012060"
-			(at 241.3 182.88 0)
+			(at 254 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9820,7 +10079,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/39012060"
-			(at 241.3 185.42 0)
+			(at 254 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9831,7 +10090,7 @@
 			)
 		)
 		(property "Description" "Connector - 4.20mm Pitch Mini-Fit Jr."
-			(at 241.3 187.96 0)
+			(at 254 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9842,7 +10101,7 @@
 			)
 		)
 		(property "Mouser" "538-39-01-2060 / 538-39-00-0039 / 538-39-00-0038-CT"
-			(at 241.3 190.5 0)
+			(at 254 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9855,25 +10114,36 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "K3")
+					(reference "K4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-3MM-MASK")
-		(at 274.32 177.8 0)
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 274.32 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "18dbe67d-ebb0-4268-a667-cba9b3212f82")
-		(property "Reference" "MH6"
+		(uuid "14dc40c3-159b-407f-8ef8-def1bcc77751")
+		(property "Reference" "H17"
+			(at 274.32 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
 			(at 274.32 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9884,19 +10154,8 @@
 				)
 			)
 		)
-		(property "Value" "MOUNTING-HOLE-3MM-MASK"
-			(at 274.32 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-3MM-MASK"
-			(at 274.32 182.88 0)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 274.32 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9907,7 +10166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 185.42 0)
+			(at 274.32 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9918,7 +10177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 177.8 0)
+			(at 274.32 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9931,7 +10190,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "MH6")
+					(reference "H17")
 					(unit 1)
 				)
 			)
@@ -9939,7 +10198,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:FUSE-15A")
-		(at 223.52 177.8 0)
+		(at 241.3 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9950,7 +10209,7 @@
 		(fields_autoplaced yes)
 		(uuid "1aeaeea8-c1cd-465f-bfdc-66a0321844b5")
 		(property "Reference" "F2"
-			(at 223.52 175.26 0)
+			(at 241.3 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9961,7 +10220,7 @@
 			)
 		)
 		(property "Value" "15A"
-			(at 223.52 180.34 0)
+			(at 241.3 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9972,7 +10231,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:FUSE-CARTRIDGE-5X20"
-			(at 223.52 182.88 0)
+			(at 241.3 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9983,7 +10242,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/products/fuses/cartridge-fuses/5x20mm-fuses/215"
-			(at 223.52 185.42 0)
+			(at 241.3 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9994,7 +10253,7 @@
 			)
 		)
 		(property "Description" "Fuse - 215 Series - 5x20mm Ceramic Body Time-Lag Cartridge Fuse"
-			(at 223.52 187.96 0)
+			(at 241.3 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10005,7 +10264,7 @@
 			)
 		)
 		(property "Mouser" "576-0215015.MXP"
-			(at 223.52 190.5 0)
+			(at 241.3 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10036,7 +10295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b782708-97e8-4525-a066-3f18ceb9e201")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 251.46 127 0)
 			(hide yes)
 			(show_name no)
@@ -10097,7 +10356,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10105,7 +10364,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+40V")
-		(at 45.72 185.42 180)
+		(at 203.2 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10115,8 +10374,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c1d5a10-4db3-43ac-970d-d0c7066c9343")
-		(property "Reference" "#PWR03"
-			(at 45.72 175.26 0)
+		(property "Reference" "#PWR06"
+			(at 203.2 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10127,7 +10386,7 @@
 			)
 		)
 		(property "Value" "+40V"
-			(at 45.72 172.72 0)
+			(at 203.2 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10138,7 +10397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 185.42 0)
+			(at 203.2 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10149,7 +10408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 185.42 0)
+			(at 203.2 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10160,7 +10419,7 @@
 			)
 		)
 		(property "Description" "40V"
-			(at 45.72 185.42 0)
+			(at 203.2 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10171,7 +10430,7 @@
 			)
 		)
 		(property "Name" "40V"
-			(at 45.72 190.5 0)
+			(at 203.2 134.62 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10186,7 +10445,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10742,7 +11001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2844c221-0c2f-4a65-ba34-d3c23dddba08")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 167.64 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -10803,7 +11062,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10926,7 +11185,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:MOUNTING-HOLE-3MM-MASK")
-		(at 254 177.8 0)
+		(at 269.24 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10937,7 +11196,7 @@
 		(fields_autoplaced yes)
 		(uuid "302b976b-b38c-4e70-b698-dbe8fb51ee1d")
 		(property "Reference" "MH2"
-			(at 254 175.26 0)
+			(at 269.24 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10948,7 +11207,7 @@
 			)
 		)
 		(property "Value" "MOUNTING-HOLE-3MM-MASK"
-			(at 254 180.34 0)
+			(at 269.24 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10959,7 +11218,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:MOUNTING-HOLE-3MM-MASK"
-			(at 254 182.88 0)
+			(at 269.24 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10970,7 +11229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 185.42 0)
+			(at 269.24 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10981,7 +11240,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 177.8 0)
+			(at 269.24 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10995,6 +11254,82 @@
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 274.32 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33252183-d0d5-4fab-9466-26fcdcd30d00")
+		(property "Reference" "H19"
+			(at 274.32 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 274.32 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 274.32 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H19")
 					(unit 1)
 				)
 			)
@@ -11411,7 +11746,8 @@
 	)
 	(symbol
 		(lib_id "tronixio:MOLEX-MINI-FIT-M-2X02-TH")
-		(at 256.54 111.76 0)
+		(at 256.54 114.3 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11420,8 +11756,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e88692b-8b9c-4ba2-a825-d7794e87a8a1")
-		(property "Reference" "K4"
-			(at 257.81 109.22 0)
+		(property "Reference" "K3"
+			(at 257.81 116.84 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11431,7 +11767,7 @@
 			)
 		)
 		(property "Value" "±40VDC"
-			(at 257.81 117.475 0)
+			(at 257.81 109.22 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11440,8 +11776,8 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:MOLEX-39288060"
-			(at 256.54 121.92 0)
+		(property "Footprint" "tronixio:MOLEX-39281043"
+			(at 256.54 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11451,8 +11787,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/39288060"
-			(at 256.54 124.46 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/39281043"
+			(at 256.54 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11462,8 +11798,8 @@
 				)
 			)
 		)
-		(property "Description" "Connector - Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 6 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural"
-			(at 256.54 127 0)
+		(property "Description" "Connector - 4.20mm Pitch Mini-Fit"
+			(at 256.54 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,8 +11809,8 @@
 				)
 			)
 		)
-		(property "Mouser" "538-39-28-8060"
-			(at 256.54 129.54 0)
+		(property "Mouser" "538-39-28-1043"
+			(at 256.54 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11499,7 +11835,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "K4")
+					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -11517,7 +11853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3edff1cc-7202-46e3-81ea-87ca43491da8")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR01"
 			(at 71.12 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -11588,7 +11924,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR05")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11889,7 +12225,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:WAKEFIELD-657-25ABEP")
-		(at 38.1 185.42 0)
+		(at 193.04 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11900,7 +12236,7 @@
 		(fields_autoplaced yes)
 		(uuid "43df961d-dbc4-4473-bb2b-2488c812a1dd")
 		(property "Reference" "HS2"
-			(at 38.1 179.07 0)
+			(at 193.04 123.19 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11910,7 +12246,7 @@
 			)
 		)
 		(property "Value" "WAKEFIELD-657-25ABEP"
-			(at 38.1 193.04 0)
+			(at 193.04 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11921,7 +12257,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:WAKEFIELD-657-25ABEP"
-			(at 38.1 195.58 0)
+			(at 193.04 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11932,7 +12268,7 @@
 			)
 		)
 		(property "Datasheet" "https://wakefieldthermal.com/wakefield-thermal-heatsink-to-220-pins-notched-657-25abepn/"
-			(at 38.1 198.12 0)
+			(at 193.04 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11943,7 +12279,7 @@
 			)
 		)
 		(property "Description" "Heatsink - Board Level Power Semiconductor Heat Sinks"
-			(at 38.1 203.2 0)
+			(at 193.04 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11954,7 +12290,7 @@
 			)
 		)
 		(property "Mouser" "567-657-25ABEP"
-			(at 38.1 200.66 0)
+			(at 193.04 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12053,6 +12389,82 @@
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 264.16 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d13ba9c-8b17-4f3e-9295-e1976803e92d")
+		(property "Reference" "H11"
+			(at 264.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 264.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 264.16 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -12443,6 +12855,82 @@
 		)
 	)
 	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 269.24 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e7faccf-5cd3-44a0-8b52-734046ed89a4")
+		(property "Reference" "H12"
+			(at 269.24 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 269.24 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 269.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:CHEMI-CON-KYB-1000U-63V")
 		(at 228.6 93.98 0)
 		(unit 1)
@@ -12558,93 +13046,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:FUSE-15A")
-		(at 228.6 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61e51d26-e93b-4186-a93f-40a4ff8f5382")
-		(property "Reference" "F3"
-			(at 228.6 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "15A"
-			(at 228.6 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:FUSE-CARTRIDGE-5X20"
-			(at 228.6 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/products/fuses/cartridge-fuses/5x20mm-fuses/215"
-			(at 228.6 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "Fuse - 215 Series - 5x20mm Ceramic Body Time-Lag Cartridge Fuse"
-			(at 228.6 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Mouser" "576-0215015.MXP"
-			(at 228.6 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:CHEMI-CON-KYB-1000U-63V")
 		(at 220.98 93.98 0)
 		(unit 1)
@@ -12754,6 +13155,82 @@
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 269.24 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67438506-ab7d-4481-83ef-11d5161ec5c6")
+		(property "Reference" "H16"
+			(at 269.24 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 269.24 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 269.24 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H16")
 					(unit 1)
 				)
 			)
@@ -13334,82 +13811,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-3MM-MASK")
-		(at 269.24 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cd6b551-63ce-4cbe-894c-f9c7d85c6ae6")
-		(property "Reference" "MH5"
-			(at 269.24 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-3MM-MASK"
-			(at 269.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-3MM-MASK"
-			(at 269.24 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "MH5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:RESISTOR-xxxx-33R-5P-5W")
 		(at 175.26 93.98 90)
 		(unit 1)
@@ -13934,7 +14335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c857c8-3685-41c0-b408-dd12bb2b1fe9")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 175.26 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -13995,7 +14396,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR07")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -14182,6 +14583,82 @@
 		)
 	)
 	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 248.92 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a3d5fad-2750-4500-95e8-18afdf91e8d6")
+		(property "Reference" "H2"
+			(at 248.92 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 248.92 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 248.92 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:POWER-FLAG")
 		(at 241.3 48.26 0)
 		(unit 1)
@@ -14255,6 +14732,82 @@
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 264.16 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91ebb179-aa3d-4fe0-aeaa-2b0d44887aaf")
+		(property "Reference" "H15"
+			(at 264.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 264.16 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 264.16 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H15")
 					(unit 1)
 				)
 			)
@@ -14456,6 +15009,158 @@
 		)
 	)
 	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 254 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff58ab4-ba25-47b9-8318-0332e0739ad0")
+		(property "Reference" "H7"
+			(at 254 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 254 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 254 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 259.08 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1f16a2b-de23-48c5-8783-adb6e92fe7da")
+		(property "Reference" "H14"
+			(at 259.08 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 259.08 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 259.08 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:RESISTOR-2512-1K-1P-1W")
 		(at 160.02 55.88 0)
 		(unit 1)
@@ -14559,7 +15264,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+40V")
-		(at 50.8 185.42 180)
+		(at 208.28 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14569,8 +15274,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac54120a-27fd-49ff-8323-a7aeb87b0067")
-		(property "Reference" "#PWR04"
-			(at 50.8 175.26 0)
+		(property "Reference" "#PWR07"
+			(at 208.28 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14581,7 +15286,7 @@
 			)
 		)
 		(property "Value" "+40V"
-			(at 50.8 172.72 0)
+			(at 208.28 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14592,7 +15297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 185.42 0)
+			(at 208.28 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14603,7 +15308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 185.42 0)
+			(at 208.28 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14614,7 +15319,7 @@
 			)
 		)
 		(property "Description" "40V"
-			(at 50.8 185.42 0)
+			(at 208.28 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14625,7 +15330,7 @@
 			)
 		)
 		(property "Name" "40V"
-			(at 50.8 190.5 0)
+			(at 208.28 134.62 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14640,7 +15345,235 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR04")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 254 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b220dbe0-f642-40b4-bf2b-2824f3a9b72e")
+		(property "Reference" "H5"
+			(at 254 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 254 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 254 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 264.16 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5a692d7-0988-4212-8fae-699f85dad47e")
+		(property "Reference" "H9"
+			(at 264.16 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 264.16 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 264.16 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 274.32 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5db105f-1fa1-4af1-8140-fcdfdec914a9")
+		(property "Reference" "H13"
+			(at 274.32 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 274.32 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 274.32 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -14763,7 +15696,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:MOLEX-MIGHTY-SPOX-F-1X04")
-		(at 236.22 177.8 0)
+		(at 248.92 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14774,7 +15707,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8598274-ba06-4702-b738-8e31b00b196c")
 		(property "Reference" "K2"
-			(at 236.22 175.26 0)
+			(at 248.92 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14785,7 +15718,7 @@
 			)
 		)
 		(property "Value" "MIGHTY-SPOX"
-			(at 236.22 180.34 0)
+			(at 248.92 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14796,7 +15729,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:MOLEX-510670400"
-			(at 236.22 182.88 0)
+			(at 248.92 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14807,7 +15740,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/510670400"
-			(at 236.22 185.42 0)
+			(at 248.92 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14818,7 +15751,7 @@
 			)
 		)
 		(property "Description" "Connector - 3.50mm Pitch Mighty-Spox"
-			(at 236.22 187.96 0)
+			(at 248.92 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14829,7 +15762,7 @@
 			)
 		)
 		(property "Mouser" "538-51067-0400 / 538-50217-8000-CT / 538-50217-9101 / 538-50217-9001-CT"
-			(at 236.22 190.5 0)
+			(at 248.92 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14952,7 +15885,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+40V")
-		(at 35.56 185.42 180)
+		(at 190.5 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14962,8 +15895,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b96d36d5-0d0d-475a-9603-278f696b3697")
-		(property "Reference" "#PWR01"
-			(at 35.56 175.26 0)
+		(property "Reference" "#PWR04"
+			(at 190.5 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14974,7 +15907,7 @@
 			)
 		)
 		(property "Value" "+40V"
-			(at 35.56 172.72 0)
+			(at 190.5 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14985,7 +15918,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 185.42 0)
+			(at 190.5 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14996,7 +15929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 185.42 0)
+			(at 190.5 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15007,7 +15940,7 @@
 			)
 		)
 		(property "Description" "40V"
-			(at 35.56 185.42 0)
+			(at 190.5 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15018,7 +15951,7 @@
 			)
 		)
 		(property "Name" "40V"
-			(at 35.56 190.5 0)
+			(at 190.5 134.62 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -15033,7 +15966,159 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR01")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 248.92 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc4d773e-245c-4a44-b54f-01da91768a5e")
+		(property "Reference" "H3"
+			(at 248.92 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 248.92 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 248.92 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 259.08 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c58bf2ee-c2ad-4fed-a65f-03c380b5d160")
+		(property "Reference" "H10"
+			(at 259.08 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 259.08 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 259.08 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -15157,7 +16242,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:MOUNTING-HOLE-3MM-MASK")
-		(at 259.08 177.8 0)
+		(at 274.32 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15168,7 +16253,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca38291c-b9cb-4666-a8e1-ff0d58b9abf8")
 		(property "Reference" "MH3"
-			(at 259.08 175.26 0)
+			(at 274.32 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15179,7 +16264,7 @@
 			)
 		)
 		(property "Value" "MOUNTING-HOLE-3MM-MASK"
-			(at 259.08 180.34 0)
+			(at 274.32 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15190,7 +16275,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:MOUNTING-HOLE-3MM-MASK"
-			(at 259.08 182.88 0)
+			(at 274.32 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15201,7 +16286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 185.42 0)
+			(at 274.32 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15212,7 +16297,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 177.8 0)
+			(at 274.32 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15524,7 +16609,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+40V")
-		(at 40.64 185.42 180)
+		(at 195.58 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15534,8 +16619,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b2e7b0-2d48-433f-831b-6112518d5873")
-		(property "Reference" "#PWR02"
-			(at 40.64 175.26 0)
+		(property "Reference" "#PWR05"
+			(at 195.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15546,7 +16631,7 @@
 			)
 		)
 		(property "Value" "+40V"
-			(at 40.64 172.72 0)
+			(at 195.58 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15557,7 +16642,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 185.42 0)
+			(at 195.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15568,7 +16653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 185.42 0)
+			(at 195.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15579,7 +16664,7 @@
 			)
 		)
 		(property "Description" "40V"
-			(at 40.64 185.42 0)
+			(at 195.58 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15590,7 +16675,7 @@
 			)
 		)
 		(property "Name" "40V"
-			(at 40.64 190.5 0)
+			(at 195.58 134.62 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -15605,83 +16690,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-3MM-MASK")
-		(at 264.16 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7084fbd-97a7-4669-8580-0177a804b710")
-		(property "Reference" "MH4"
-			(at 264.16 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-3MM-MASK"
-			(at 264.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-3MM-MASK"
-			(at 264.16 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "MH4")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -16267,6 +17276,82 @@
 		)
 	)
 	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 248.92 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3555c6f-86fc-49fb-afc0-ce7f31a2554b")
+		(property "Reference" "H6"
+			(at 248.92 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 248.92 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 248.92 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:ST-TIP36C-TO247")
 		(at 187.96 66.04 0)
 		(mirror x)
@@ -16536,7 +17621,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:WAKEFIELD-657-25ABEP")
-		(at 48.26 185.42 0)
+		(at 205.74 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16547,7 +17632,7 @@
 		(fields_autoplaced yes)
 		(uuid "e59b9cb9-9aba-49a7-97b6-b0b240306e3e")
 		(property "Reference" "HS3"
-			(at 48.26 179.07 0)
+			(at 205.74 123.19 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16557,7 +17642,7 @@
 			)
 		)
 		(property "Value" "WAKEFIELD-657-25ABEP"
-			(at 48.26 193.04 0)
+			(at 205.74 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16568,7 +17653,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:WAKEFIELD-657-25ABEP"
-			(at 48.26 195.58 0)
+			(at 205.74 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16579,7 +17664,7 @@
 			)
 		)
 		(property "Datasheet" "https://wakefieldthermal.com/wakefield-thermal-heatsink-to-220-pins-notched-657-25abepn/"
-			(at 48.26 198.12 0)
+			(at 205.74 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16590,7 +17675,7 @@
 			)
 		)
 		(property "Description" "Heatsink - Board Level Power Semiconductor Heat Sinks"
-			(at 48.26 203.2 0)
+			(at 205.74 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16601,7 +17686,7 @@
 			)
 		)
 		(property "Mouser" "567-657-25ABEP"
-			(at 48.26 200.66 0)
+			(at 205.74 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16799,8 +17884,85 @@
 		)
 	)
 	(symbol
+		(lib_id "tronixio:MOUNTING-HOLE-2MM")
+		(at 269.24 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb318fd6-cf63-4a8c-a0fc-ab509121ff79")
+		(property "Reference" "H18"
+			(at 269.24 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "MOUNTING-HOLE-2MM"
+			(at 269.24 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
+			(at 269.24 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "H18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:MOLEX-MIGHTY-SPOX-M-1X04-VERTICAL-TH")
-		(at 40.64 114.3 180)
+		(at 40.64 106.68 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16810,16 +17972,6 @@
 		(dnp no)
 		(uuid "ed325e59-4124-4862-924e-9e74b9de0d77")
 		(property "Reference" "K1"
-			(at 40.64 104.14 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Value" "~50VAC"
 			(at 40.64 116.84 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16829,8 +17981,18 @@
 				)
 			)
 		)
+		(property "Value" "~50VAC"
+			(at 40.64 104.14 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
 		(property "Footprint" "tronixio:MOLEX-532580429"
-			(at 40.64 101.6 0)
+			(at 40.64 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16841,7 +18003,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/532580429"
-			(at 40.64 99.06 0)
+			(at 40.64 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16852,7 +18014,7 @@
 			)
 		)
 		(property "Description" "Connector - Mighty-SPOX Header, 3.50mm Pitch"
-			(at 40.64 96.52 0)
+			(at 40.64 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16863,7 +18025,7 @@
 			)
 		)
 		(property "Mouser" "538-53258-0429"
-			(at 40.64 93.98 0)
+			(at 40.64 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16896,7 +18058,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:SAMESKY-HSE19-361616P")
-		(at 27.94 185.42 0)
+		(at 180.34 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16907,7 +18069,7 @@
 		(fields_autoplaced yes)
 		(uuid "efcc4a3e-b0e9-4289-bc6f-a37ee9711b41")
 		(property "Reference" "HS1"
-			(at 27.94 179.07 0)
+			(at 180.34 123.19 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16917,7 +18079,7 @@
 			)
 		)
 		(property "Value" "HSE19-361616P"
-			(at 27.94 193.04 0)
+			(at 180.34 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16928,7 +18090,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:SAMESKY-HSE19-361616P"
-			(at 27.94 195.58 0)
+			(at 180.34 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16939,7 +18101,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/thermal-management/heat-sinks/board-level-heat-sinks/extruded-heat-sinks/hse19-361616p"
-			(at 27.94 198.12 0)
+			(at 180.34 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16950,7 +18112,7 @@
 			)
 		)
 		(property "Description" "Heatsink - Extruded Heat Sink, TO-220, Aluminum, PCB, 4 mm Vertical Solder Pin"
-			(at 27.94 200.66 0)
+			(at 180.34 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16961,7 +18123,7 @@
 			)
 		)
 		(property "Mouser" "179-HSE19-361616P"
-			(at 27.94 203.2 0)
+			(at 180.34 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
