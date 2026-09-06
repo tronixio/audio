@@ -615,7 +615,7 @@
 				)
 			)
 			(property "Description" "Capacitor Unpolarized"
-				(at 0 -15.24 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -650,7 +650,7 @@
 				)
 			)
 			(property "Mouser" "80-C1206C103J1R"
-				(at 0 -12.7 0)
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -762,7 +762,7 @@
 			(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
 				(at 0 -10.16 0)
 				(show_name no)
-				(do_not_autoplace yes)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -782,7 +782,7 @@
 				)
 			)
 			(property "Description" "Capacitor Unpolarized"
-				(at 0 -15.24 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -817,9 +817,9 @@
 				)
 			)
 			(property "Mouser" "80-C1206C153J1R"
-				(at 0 -12.7 0)
+				(at 0 -15.24 0)
 				(show_name no)
-				(do_not_autoplace yes)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -1885,172 +1885,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tronixio:KINGBRIGHT-LED-05MM-ORANGE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LED"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-				)
-			)
-			(property "Value" "ORANGE"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-				)
-			)
-			(property "Footprint" "tronixio:LED-TH-ROUND-05MM"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ND.pdf"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Description" "Light Emitting Diode"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Mouser" "604-WP7113ND"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(symbol "KINGBRIGHT-LED-05MM-ORANGE_0_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end -0.762 -1.27)
-					(stroke
-						(width 0.001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.524) (xy 0.508 2.54) (xy 0.254 2.032) (xy 0 2.286) (xy 0.508 2.54)
-					)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.524) (xy 1.524 2.54) (xy 1.27 2.032) (xy 1.016 2.286) (xy 1.524 2.54)
-					)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.27) (xy 1.524 1.27) (xy -0.762 0) (xy 1.524 -1.27)
-					)
-					(stroke
-						(width 0.001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "KINGBRIGHT-LED-05MM-ORANGE_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "C"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "tronixio:MOLEX-MIGHTY-SPOX-F-1X04"
 			(pin_numbers
 				(hide yes)
@@ -2380,7 +2214,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tronixio:MOLEX-MINI-FIT-F-2X03"
+		(symbol "tronixio:MOLEX-MINI-FIT-F-2X02"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2415,7 +2249,7 @@
 					)
 				)
 			)
-			(property "Footprint" "tronixio:MOLEX-39012060"
+			(property "Footprint" "tronixio:MOLEX-39012040"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2426,7 +2260,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/39012060"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/39012040"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2448,7 +2282,7 @@
 					)
 				)
 			)
-			(property "Mouser" "538-39-01-2060 / 538-39-00-0039 / 538-39-00-0038-CT"
+			(property "Mouser" "538-39-01-2040 / 538-39-00-0039 / 538-39-00-0038-CT"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2459,7 +2293,7 @@
 					)
 				)
 			)
-			(symbol "MOLEX-MINI-FIT-F-2X03_0_1"
+			(symbol "MOLEX-MINI-FIT-F-2X02_0_1"
 				(polyline
 					(pts
 						(xy -1.016 -1.016) (xy 1.016 1.016)
@@ -2704,113 +2538,6 @@
 								(size 1 1)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "tronixio:MOUNTING-HOLE-2MM"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Value" "MOUNTING-HOLE-2MM"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MOUNTING-HOLE-2MM_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.016) (xy 1.016 1.016)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 1.524)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy -1.016 1.016)
-					)
-					(stroke
-						(width 0.3)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -5034,148 +4761,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tronixio:RESISTOR-2512-3K9-1P-1W"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0.635 3.81 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "3k90"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-				)
-			)
-			(property "Footprint" "tronixio:RESISTOR-SMD-2512"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0.635 -3.81 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-					(justify left)
-				)
-			)
-			(property "Mouser" "603-RC2512FK-073K9L"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(symbol "RESISTOR-2512-3K9-1P-1W_0_1"
-				(rectangle
-					(start -1.27 -2.54)
-					(end 1.27 2.54)
-					(stroke
-						(width 0.4)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RESISTOR-2512-3K9-1P-1W_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "tronixio:RESISTOR-2512-47R-1P-1W"
 			(pin_numbers
 				(hide yes)
@@ -5421,6 +5006,148 @@
 				)
 			)
 			(symbol "RESISTOR-2512-4K7-1P-1W_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "tronixio:RESISTOR-2512-56K-1P-1W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.635 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "56k0"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:RESISTOR-SMD-2512"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0.635 -3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Mouser" "603-RC2512FK-0756KL"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(symbol "RESISTOR-2512-56K-1P-1W_0_1"
+				(rectangle
+					(start -1.27 -2.54)
+					(end 1.27 2.54)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RESISTOR-2512-56K-1P-1W_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -6695,6 +6422,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "tronixio:VCC-LED-05MM-BLUE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Value" "BLUE"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:LED-TH-ROUND-05MM"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Datasheet" "https://vcc.co/products/led-through-hole-5mm-t-1-3-4-blue-470-nm-1500-mcd-3-5v_vaol-5lsby1/"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Description" "LED"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Mouser" "593-VAOL-5LSBY1"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(symbol "VCC-LED-05MM-BLUE_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end -0.762 -1.27)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.524) (xy 0.508 2.54) (xy 0.254 2.032) (xy 0 2.286) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.524) (xy 1.524 2.54) (xy 1.27 2.032) (xy 1.016 2.286) (xy 1.524 2.54)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 1.27) (xy -0.762 0) (xy 1.524 -1.27)
+					)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VCC-LED-05MM-BLUE_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "C"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "tronixio:WAKEFIELD-657-25ABEP"
 			(pin_numbers
 				(hide yes)
@@ -7188,7 +7081,7 @@
 	)
 	(text "Vsec (Red)"
 		(exclude_from_sim no)
-		(at 38.735 109.855 0)
+		(at 38.735 107.315 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7219,7 +7112,7 @@
 		)
 		(uuid "cf60f7c9-c45c-4766-b22e-024ab8ffae98")
 	)
-	(text "Notes:\n- Elektor Linear Voltage Regulator: https://www.elektormagazine.com/magazine/elektor-312/62153\n- TR: Farnel - VIGORTRONIX VTX-146-300-235\n\nMeasures:\n- +VCC/+50V: +51.5V\n- +33V6: +33V44\n- +40V: +38V48/+41V03"
+	(text "Notes:\n- Elektor Linear Voltage Regulator: https://www.elektormagazine.com/magazine/elektor-312/62153\n- TR: Farnel - VIGORTRONIX VTX-146-300-235\n\nMeasures:\n- TP1 +VCC: +51.7V\n- TP2 +33V6: +33V49\n- TP5 +40V: +38V52/+40V92"
 		(exclude_from_sim no)
 		(at 15.875 194.31 0)
 		(effects
@@ -7232,7 +7125,7 @@
 	)
 	(text "Vsec (Yellow)"
 		(exclude_from_sim no)
-		(at 38.735 107.315 0)
+		(at 38.735 109.855 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7242,7 +7135,7 @@
 		(uuid "ef1189aa-a5fd-4c0a-8549-fc6e6498a383")
 	)
 	(junction
-		(at 152.4 78.74)
+		(at 149.86 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c0063d0-f185-46c0-89dd-05a6281ffe31")
@@ -7260,7 +7153,13 @@
 		(uuid "14e94630-bac9-4870-aa38-338a5eae48a1")
 	)
 	(junction
-		(at 73.66 114.3)
+		(at 157.48 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c1a9d85-ed9d-45f7-a090-4853289619c8")
+	)
+	(junction
+		(at 71.12 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dabd35f-257c-45a2-acb7-36ba98890e08")
@@ -7278,7 +7177,7 @@
 		(uuid "24ea5980-f025-4c44-b4e1-68507b1ad55b")
 	)
 	(junction
-		(at 73.66 48.26)
+		(at 71.12 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "268ca7e0-2276-445b-85d8-94eedcd29813")
@@ -7290,19 +7189,13 @@
 		(uuid "2ac9b9dc-6efc-403d-ab13-f0d8f2fd7bba")
 	)
 	(junction
-		(at 53.34 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c5b69ee-1c0c-4e63-8020-f1a753455908")
-	)
-	(junction
 		(at 251.46 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31aa7e8c-cdb0-4112-9bd5-86641f09ca60")
 	)
 	(junction
-		(at 137.16 114.3)
+		(at 134.62 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "347c0b45-b9a6-4145-93a0-bd922bfac704")
@@ -7314,7 +7207,7 @@
 		(uuid "358bf8e4-09a1-4af1-9918-0cd369468792")
 	)
 	(junction
-		(at 93.98 114.3)
+		(at 91.44 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37ade9d5-7d0e-4a73-92c4-b1a873555ecf")
@@ -7324,12 +7217,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "398398f4-1834-4713-ad04-edf8658782ce")
-	)
-	(junction
-		(at 167.64 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bf7f3a9-a406-4eaa-a24b-da03c628877b")
 	)
 	(junction
 		(at 248.92 71.12)
@@ -7342,12 +7229,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c2882cf-a96d-4e02-be62-300edac8126e")
-	)
-	(junction
-		(at 76.2 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cec53d2-f5e4-4b7a-9411-2f4cc7d036d1")
 	)
 	(junction
 		(at 45.72 114.3)
@@ -7368,7 +7249,7 @@
 		(uuid "446a4d7a-20f9-4d4a-b3d6-597ff271cf68")
 	)
 	(junction
-		(at 115.57 88.9)
+		(at 113.03 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a041e86-91da-4050-892d-c1bc503a08ad")
@@ -7386,16 +7267,10 @@
 		(uuid "4d28de52-e426-40b1-9b3a-0500a923b513")
 	)
 	(junction
-		(at 101.6 101.6)
+		(at 99.06 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ff21e99-68ba-46a3-b6df-36d16adc809c")
-	)
-	(junction
-		(at 167.64 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58b32026-7590-4a9d-a0bf-6d883360c395")
 	)
 	(junction
 		(at 236.22 48.26)
@@ -7404,10 +7279,10 @@
 		(uuid "591cc41f-1805-4250-a6bb-7919b4ceb887")
 	)
 	(junction
-		(at 160.02 60.96)
+		(at 45.72 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59ce9a8a-e555-4ffe-b9f0-7dcb2d31d177")
+		(uuid "5adba212-8956-403e-80f8-1fae8f2a0859")
 	)
 	(junction
 		(at 182.88 48.26)
@@ -7416,7 +7291,7 @@
 		(uuid "5c5aee43-bdec-4ac0-8fa1-2fa8bf253a52")
 	)
 	(junction
-		(at 137.16 96.52)
+		(at 134.62 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e6404c8-4fc4-424c-bad5-7a79bf6caa9f")
@@ -7428,28 +7303,34 @@
 		(uuid "64ab1381-611a-4d6c-b4b5-07fcd508cb3b")
 	)
 	(junction
-		(at 132.08 73.66)
+		(at 66.04 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65da2342-dd82-4995-8683-55f3f14e2f88")
+	)
+	(junction
+		(at 129.54 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66ec417a-38c7-4d28-b8d3-ed4b9dda4514")
 	)
 	(junction
-		(at 109.22 88.9)
+		(at 106.68 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67381841-86b0-4013-9149-856bfed98c41")
 	)
 	(junction
-		(at 81.28 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68247439-a064-4505-a634-da4ed7d44e82")
-	)
-	(junction
-		(at 101.6 88.9)
+		(at 99.06 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c675965-6e08-40f7-8748-e19cc2c589c0")
+	)
+	(junction
+		(at 167.64 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f649c71-0c33-46d5-9141-f98781f6e8c5")
 	)
 	(junction
 		(at 228.6 48.26)
@@ -7458,19 +7339,19 @@
 		(uuid "70552a25-bf4b-482f-af8e-b85553f3ecca")
 	)
 	(junction
-		(at 132.08 78.74)
+		(at 129.54 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "757bb3aa-0b8a-413c-888b-76143b6ce24c")
 	)
 	(junction
-		(at 142.24 48.26)
+		(at 139.7 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b8aaa6d-0d53-46f1-a6d2-07f45fbdeee1")
 	)
 	(junction
-		(at 93.98 88.9)
+		(at 91.44 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bc43cc2-d7bb-422d-b4f2-8651f8fcab57")
@@ -7482,22 +7363,16 @@
 		(uuid "7d5a5ad7-4a55-43b5-bdb0-fc70fab43e41")
 	)
 	(junction
-		(at 248.92 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ebb7a25-5d2c-47e1-9331-2123806217b0")
-	)
-	(junction
-		(at 67.31 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82d24263-923c-45ec-9513-795c9ea04230")
-	)
-	(junction
 		(at 45.72 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8336a6b7-774e-43ad-b8ca-dfb7987b3692")
+	)
+	(junction
+		(at 73.66 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "855866b4-6801-4e92-9283-fce431fa6db7")
 	)
 	(junction
 		(at 251.46 119.38)
@@ -7509,16 +7384,28 @@
 		(at 200.66 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b8a8d8b-3bbf-48d1-b014-3d963afd14c2")
+		(uuid "8bcfd1c4-92c8-4e85-b2c0-26bbe233289d")
 	)
 	(junction
-		(at 71.12 48.26)
+		(at 68.58 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e1bc8b7-fcd4-4fef-8487-42bc920bd002")
 	)
 	(junction
-		(at 152.4 48.26)
+		(at 167.64 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e3eb126-7400-4f89-ac9b-70e60bcb15b6")
+	)
+	(junction
+		(at 50.8 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90e7bc20-27b2-46e9-a3b2-15fb5681ff6a")
+	)
+	(junction
+		(at 149.86 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91adcb1c-4962-4584-b1f7-802972e33b11")
@@ -7530,19 +7417,25 @@
 		(uuid "91c27284-d79a-4e75-8b9a-9b6c42e5e211")
 	)
 	(junction
-		(at 101.6 114.3)
+		(at 99.06 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92f43b30-2395-4bc0-bf68-f709a7b2359d")
 	)
 	(junction
-		(at 113.03 88.9)
+		(at 110.49 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9652a27a-c8da-4129-976d-f76b6bd7f80a")
 	)
 	(junction
-		(at 114.3 114.3)
+		(at 66.04 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97083c83-a4c3-4dcd-8c54-74443ceb9658")
+	)
+	(junction
+		(at 111.76 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b4ede91-1b71-4da8-9a93-3e2f877ce5ed")
@@ -7560,13 +7453,13 @@
 		(uuid "a65d8b6b-28ca-45d5-bfd4-70fda535e878")
 	)
 	(junction
-		(at 132.08 48.26)
+		(at 129.54 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9163ef0-d832-4953-962f-4255a8b8e2c9")
 	)
 	(junction
-		(at 114.3 48.26)
+		(at 111.76 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b15d97aa-caed-4cad-876a-aace95bdd3b7")
@@ -7578,16 +7471,16 @@
 		(uuid "b190f6e9-83d9-42fc-87ed-51165a2da3b5")
 	)
 	(junction
-		(at 83.82 48.26)
+		(at 81.28 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2d9f39b-283d-4863-b248-3fb722de7037")
 	)
 	(junction
-		(at 167.64 48.26)
+		(at 157.48 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b572276a-36f6-4e35-b17f-4db3d790a722")
+		(uuid "bb5a0c90-b4f3-499a-ba14-8ba6009243a7")
 	)
 	(junction
 		(at 208.28 99.06)
@@ -7602,12 +7495,6 @@
 		(uuid "bfe68129-0881-42f1-a42a-c2a7b6e63090")
 	)
 	(junction
-		(at 67.31 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c120c69a-a12c-43d4-bac4-70f95336bb51")
-	)
-	(junction
 		(at 209.55 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7620,7 +7507,7 @@
 		(uuid "c8cdd62b-ebff-4b46-bac0-c84ab0001530")
 	)
 	(junction
-		(at 109.22 101.6)
+		(at 106.68 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceca4c15-26e3-4994-8fb3-9bc097a32d02")
@@ -7650,13 +7537,7 @@
 		(uuid "d76dcbc8-5410-4ff0-93ef-363c70106a96")
 	)
 	(junction
-		(at 48.26 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0814c86-fb9f-40d6-9a5d-b39ccff5ae1d")
-	)
-	(junction
-		(at 83.82 114.3)
+		(at 81.28 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e48b8575-d125-42d8-ae96-941117055c26")
@@ -7668,28 +7549,40 @@
 		(uuid "e55ace5b-d776-492c-a5ca-3252c4b6b87f")
 	)
 	(junction
-		(at 160.02 48.26)
+		(at 66.04 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef6aade6-ac97-4646-8461-c9dedea7cd98")
+		(uuid "ec4d75b5-03d7-44d8-9ca2-dc83e1d0b6ca")
 	)
 	(junction
-		(at 124.46 48.26)
+		(at 167.64 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef497b04-513d-4dea-9f26-22e480dec600")
+	)
+	(junction
+		(at 121.92 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5c6d2bb-19f5-4440-abe7-e83b8178a91a")
 	)
-	(no_connect
-		(at 182.88 129.54)
-		(uuid "474a6660-3e5b-42b1-aef8-028410bac874")
+	(junction
+		(at 66.04 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc8780a3-e3ca-4359-b89e-309c80412bac")
 	)
 	(no_connect
 		(at 177.8 129.54)
-		(uuid "c52fb2d7-d1d9-4812-813e-3ee24faa3272")
+		(uuid "2d622ae2-379a-4e29-a774-aee3207134d3")
+	)
+	(no_connect
+		(at 182.88 129.54)
+		(uuid "3b60473c-e391-499e-a79a-02eef41d3492")
 	)
 	(wire
 		(pts
-			(xy 152.4 48.26) (xy 160.02 48.26)
+			(xy 149.86 48.26) (xy 157.48 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7699,7 +7592,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 48.26) (xy 93.98 48.26)
+			(xy 81.28 48.26) (xy 91.44 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7709,7 +7602,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 48.26) (xy 58.42 48.26)
+			(xy 45.72 48.26) (xy 55.88 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7719,7 +7612,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 115.57 88.9)
+			(xy 110.49 88.9) (xy 113.03 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7729,7 +7622,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 114.3) (xy 167.64 114.3)
+			(xy 134.62 114.3) (xy 167.64 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7749,7 +7642,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 114.3) (xy 248.92 114.3)
+			(xy 238.76 114.3) (xy 251.46 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7759,7 +7652,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 114.3) (xy 83.82 114.3)
+			(xy 71.12 114.3) (xy 81.28 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7779,7 +7672,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 60.96) (xy 132.08 73.66)
+			(xy 129.54 60.96) (xy 129.54 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7789,7 +7682,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 48.26) (xy 83.82 78.74)
+			(xy 81.28 48.26) (xy 81.28 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7799,7 +7692,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 73.66) (xy 114.3 87.63)
+			(xy 111.76 73.66) (xy 111.76 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7819,17 +7712,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 48.26) (xy 167.64 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "184dd4ba-4d66-4a07-91d9-e95534e3b825")
-	)
-	(wire
-		(pts
-			(xy 83.82 114.3) (xy 93.98 114.3)
+			(xy 81.28 114.3) (xy 91.44 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7839,7 +7722,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 48.26) (xy 132.08 48.26)
+			(xy 139.7 48.26) (xy 129.54 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7859,7 +7742,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 111.76) (xy 137.16 114.3)
+			(xy 134.62 111.76) (xy 134.62 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7869,7 +7752,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 101.6 91.44)
+			(xy 99.06 88.9) (xy 99.06 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7899,6 +7782,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 48.26) (xy 81.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210aacab-57fe-473e-bb52-234ad2f000d7")
+	)
+	(wire
+		(pts
 			(xy 208.28 48.26) (xy 220.98 48.26)
 		)
 		(stroke
@@ -7909,7 +7802,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 55.88) (xy 152.4 48.26)
+			(xy 157.48 58.42) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22bbff9b-d0fe-4ab7-95eb-5b538415cafd")
+	)
+	(wire
+		(pts
+			(xy 149.86 55.88) (xy 149.86 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7929,7 +7832,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 73.66) (xy 132.08 73.66)
+			(xy 121.92 73.66) (xy 129.54 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7959,7 +7862,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 83.82) (xy 73.66 114.3)
+			(xy 71.12 83.82) (xy 71.12 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7969,7 +7872,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 88.9) (xy 127 88.9)
+			(xy 121.92 88.9) (xy 124.46 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7989,16 +7892,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 106.68) (xy 48.26 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f8ecc22-5f1f-47e0-bf70-12da2163b434")
-	)
-	(wire
-		(pts
 			(xy 43.18 109.22) (xy 45.72 109.22)
 		)
 		(stroke
@@ -8009,7 +7902,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 60.96) (xy 124.46 66.04)
+			(xy 121.92 60.96) (xy 121.92 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8029,7 +7922,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 109.22 101.6)
+			(xy 99.06 101.6) (xy 106.68 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8059,7 +7952,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 93.98) (xy 142.24 96.52)
+			(xy 139.7 93.98) (xy 139.7 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8079,7 +7972,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 114.3) (xy 53.34 114.3)
+			(xy 45.72 114.3) (xy 50.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8099,6 +7992,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 114.3) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eeace04-fb8b-4fc9-80c8-479e41a3e7e4")
+	)
+	(wire
+		(pts
 			(xy 170.18 109.22) (xy 167.64 109.22)
 		)
 		(stroke
@@ -8106,6 +8009,16 @@
 			(type default)
 		)
 		(uuid "407e4d49-a67c-436e-82ef-db3a4d459a07")
+	)
+	(wire
+		(pts
+			(xy 66.04 48.26) (xy 73.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ccde0d-dd64-440f-80b5-c8b4fab82187")
 	)
 	(wire
 		(pts
@@ -8139,7 +8052,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 58.42) (xy 167.64 60.96)
+			(xy 167.64 55.88) (xy 167.64 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8149,7 +8062,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 48.26) (xy 71.12 45.72)
+			(xy 68.58 48.26) (xy 68.58 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8169,7 +8082,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 104.14) (xy 58.42 104.14)
+			(xy 45.72 104.14) (xy 55.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8199,7 +8112,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 114.3 48.26)
+			(xy 111.76 63.5) (xy 111.76 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8209,7 +8122,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 104.14) (xy 93.98 114.3)
+			(xy 91.44 104.14) (xy 91.44 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8229,7 +8142,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 48.26) (xy 132.08 48.26)
+			(xy 121.92 48.26) (xy 129.54 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8239,7 +8152,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 88.9) (xy 101.6 88.9)
+			(xy 91.44 88.9) (xy 99.06 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8299,7 +8212,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 88.9) (xy 200.66 88.9)
+			(xy 152.4 88.9) (xy 200.66 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8319,7 +8232,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 87.63) (xy 113.03 88.9)
+			(xy 111.76 87.63) (xy 110.49 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8329,7 +8242,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 104.14) (xy 48.26 48.26)
+			(xy 45.72 104.14) (xy 45.72 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8339,7 +8252,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 90.17) (xy 115.57 88.9)
+			(xy 111.76 90.17) (xy 113.03 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8359,7 +8272,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 104.14) (xy 114.3 114.3)
+			(xy 111.76 104.14) (xy 111.76 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8369,7 +8282,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 114.3 114.3)
+			(xy 99.06 114.3) (xy 111.76 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8379,7 +8292,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 48.26) (xy 124.46 48.26)
+			(xy 111.76 48.26) (xy 121.92 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8389,7 +8302,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 114.3) (xy 67.31 114.3)
+			(xy 60.96 114.3) (xy 66.04 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8399,7 +8312,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 114.3) (xy 53.34 114.3)
+			(xy 55.88 114.3) (xy 50.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8439,7 +8352,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 114.3) (xy 101.6 114.3)
+			(xy 91.44 114.3) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8459,23 +8372,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 106.68) (xy 48.26 104.14)
+			(xy 45.72 106.68) (xy 45.72 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "78c73961-b70a-476c-a57d-55005b73d8ba")
-	)
-	(wire
-		(pts
-			(xy 162.56 60.96) (xy 160.02 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a65df28-3d3d-4bd7-9601-e917acc047d4")
 	)
 	(wire
 		(pts
@@ -8519,7 +8422,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 60.96) (xy 160.02 60.96)
+			(xy 154.94 60.96) (xy 157.48 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8529,7 +8432,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 119.38 88.9)
+			(xy 113.03 88.9) (xy 116.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8559,7 +8462,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 104.14) (xy 67.31 114.3)
+			(xy 66.04 104.14) (xy 66.04 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8569,7 +8472,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 132.08 50.8)
+			(xy 129.54 48.26) (xy 129.54 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8579,7 +8482,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 53.34) (xy 167.64 48.26)
+			(xy 167.64 50.8) (xy 167.64 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8599,17 +8502,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 48.26) (xy 71.12 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9071b5f2-30fe-49f0-9d20-47b74aaa1774")
-	)
-	(wire
-		(pts
-			(xy 142.24 83.82) (xy 142.24 48.26)
+			(xy 139.7 83.82) (xy 139.7 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8619,23 +8512,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 48.26) (xy 73.66 78.74)
+			(xy 71.12 48.26) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "91544b63-40e4-4eda-8bad-4d218d486f69")
-	)
-	(wire
-		(pts
-			(xy 71.12 48.26) (xy 76.2 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918eef90-c1d6-4242-84ad-0abdfc7dc0e1")
 	)
 	(wire
 		(pts
@@ -8699,7 +8582,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 58.42) (xy 67.31 58.42)
+			(xy 60.96 58.42) (xy 66.04 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8729,7 +8612,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 73.66) (xy 132.08 78.74)
+			(xy 129.54 73.66) (xy 129.54 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8759,7 +8642,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 96.52) (xy 137.16 96.52)
+			(xy 129.54 96.52) (xy 134.62 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8799,7 +8682,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 66.04) (xy 152.4 78.74)
+			(xy 149.86 66.04) (xy 149.86 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8809,7 +8692,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 58.42) (xy 67.31 48.26)
+			(xy 66.04 58.42) (xy 66.04 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8839,16 +8722,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 114.3) (xy 73.66 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae566566-021c-40bc-a670-d87d6ca56602")
-	)
-	(wire
-		(pts
 			(xy 167.64 114.3) (xy 208.28 114.3)
 		)
 		(stroke
@@ -8859,7 +8732,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 78.74) (xy 152.4 78.74)
+			(xy 129.54 78.74) (xy 149.86 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8869,7 +8742,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 78.74) (xy 132.08 83.82)
+			(xy 129.54 78.74) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -8879,7 +8752,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 48.26) (xy 152.4 48.26)
+			(xy 139.7 48.26) (xy 149.86 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8896,6 +8769,16 @@
 			(type default)
 		)
 		(uuid "b32ee3b6-016f-41b7-893d-76641474f220")
+	)
+	(wire
+		(pts
+			(xy 157.48 60.96) (xy 162.56 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4efc81d-abb5-4ba6-85b3-ff8d478bae9f")
 	)
 	(wire
 		(pts
@@ -8929,7 +8812,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 99.06) (xy 114.3 90.17)
+			(xy 111.76 99.06) (xy 111.76 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8939,7 +8822,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 48.26) (xy 124.46 50.8)
+			(xy 121.92 48.26) (xy 121.92 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8949,7 +8832,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 93.98) (xy 132.08 96.52)
+			(xy 129.54 93.98) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8959,7 +8842,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 96.52) (xy 142.24 96.52)
+			(xy 134.62 96.52) (xy 139.7 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8979,7 +8862,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 101.6) (xy 111.76 101.6)
+			(xy 106.68 101.6) (xy 109.22 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8999,7 +8882,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 83.82) (xy 83.82 114.3)
+			(xy 81.28 83.82) (xy 81.28 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9039,7 +8922,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 58.42) (xy 58.42 58.42)
+			(xy 50.8 58.42) (xy 55.88 58.42)
 		)
 		(stroke
 			(width 0)
@@ -9059,13 +8942,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 78.74) (xy 177.8 78.74)
+			(xy 149.86 78.74) (xy 177.8 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ca92f240-798e-4063-b1fc-c848d53667f7")
+	)
+	(wire
+		(pts
+			(xy 157.48 48.26) (xy 167.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae9a819-f8b4-4eb4-ac23-775697db11d7")
 	)
 	(wire
 		(pts
@@ -9089,17 +8982,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 48.26) (xy 160.02 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccf665db-f177-493b-b1de-f796b6353a4d")
-	)
-	(wire
-		(pts
-			(xy 53.34 114.3) (xy 53.34 58.42)
+			(xy 50.8 114.3) (xy 50.8 58.42)
 		)
 		(stroke
 			(width 0)
@@ -9129,17 +9012,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 114.3) (xy 251.46 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf31d6b5-f8a3-4d63-9cc4-882e85f5a8db")
-	)
-	(wire
-		(pts
-			(xy 149.86 88.9) (xy 147.32 88.9)
+			(xy 147.32 88.9) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9179,7 +9052,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 71.12) (xy 124.46 73.66)
+			(xy 121.92 71.12) (xy 121.92 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9189,7 +9062,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 48.26) (xy 114.3 48.26)
+			(xy 101.6 48.26) (xy 111.76 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9209,7 +9082,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 101.6 114.3)
+			(xy 99.06 111.76) (xy 99.06 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9246,16 +9119,6 @@
 			(type default)
 		)
 		(uuid "d9f2ffd3-d837-42e3-97a5-a2e6a70813f1")
-	)
-	(wire
-		(pts
-			(xy 76.2 48.26) (xy 81.28 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da8e359d-7c1f-4f43-a660-a736f4dac95c")
 	)
 	(wire
 		(pts
@@ -9329,7 +9192,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 109.22 88.9)
+			(xy 106.68 93.98) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9339,13 +9202,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 48.26) (xy 83.82 48.26)
+			(xy 60.96 48.26) (xy 66.04 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e85e60b2-bb47-47a7-aecc-8247a160ce06")
+		(uuid "e77cfbe4-6538-483f-bf23-aed2e48a454c")
 	)
 	(wire
 		(pts
@@ -9389,7 +9252,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 137.16 96.52)
+			(xy 134.62 101.6) (xy 134.62 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9399,7 +9262,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 93.98 88.9)
+			(xy 91.44 99.06) (xy 91.44 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9409,7 +9272,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 109.22 101.6)
+			(xy 106.68 99.06) (xy 106.68 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9419,7 +9282,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 67.31 104.14)
+			(xy 60.96 104.14) (xy 66.04 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9439,16 +9302,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 48.26) (xy 67.31 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f49e8232-e60b-416f-893c-b22439b7094a")
-	)
-	(wire
-		(pts
 			(xy 233.68 48.26) (xy 236.22 48.26)
 		)
 		(stroke
@@ -9459,7 +9312,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 88.9) (xy 113.03 88.9)
+			(xy 106.68 88.9) (xy 110.49 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9469,7 +9322,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 109.22 88.9)
+			(xy 99.06 88.9) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9499,165 +9352,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 114.3) (xy 137.16 114.3)
+			(xy 111.76 114.3) (xy 134.62 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc350334-695c-4b63-b0c5-5903b619aaef")
-	)
-	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 259.08 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02cc8551-aeab-4f1b-938a-1f93a90f099c")
-		(property "Reference" "H8"
-			(at 259.08 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 259.08 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 259.08 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 254 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05c45131-6402-4997-b87a-09edc301291c")
-		(property "Reference" "H4"
-			(at 254 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 254 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 254 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 254 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "tronixio:RESISTOR-xxxx-0R1-5P-5W")
@@ -9779,7 +9480,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9851,7 +9552,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:ONSEMI-BC556B-TO92")
-		(at 154.94 60.96 180)
+		(at 152.4 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9861,7 +9562,7 @@
 		(dnp no)
 		(uuid "07d5f198-c6ac-40e0-9830-e7ce5a52671a")
 		(property "Reference" "Q3"
-			(at 151.765 54.61 0)
+			(at 149.225 54.61 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9872,7 +9573,7 @@
 			)
 		)
 		(property "Value" "BC556B"
-			(at 151.765 56.515 0)
+			(at 149.225 56.515 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9883,7 +9584,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:TO-92-INLINE-WIDE"
-			(at 154.94 48.26 0)
+			(at 152.4 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9894,7 +9595,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/products/discrete-power-modules/general-purpose-and-low-vcesat-transistors/BC556B(LEGACY%20FAIRCHILD)"
-			(at 154.94 45.72 0)
+			(at 152.4 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9905,7 +9606,7 @@
 			)
 		)
 		(property "Description" "Transistor - General Purpose and Low VCE(sat) Transistors"
-			(at 154.94 43.18 0)
+			(at 152.4 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9916,7 +9617,7 @@
 			)
 		)
 		(property "Mouser" "512-BC556BTF"
-			(at 154.94 40.64 0)
+			(at 152.4 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9954,7 +9655,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b5d9eae-5818-43f6-bd55-31e101668e79")
 		(property "Reference" "#PWR012"
 			(at 251.46 78.74 0)
@@ -10001,23 +9701,12 @@
 			)
 		)
 		(property "Description" "40V"
-			(at 251.46 68.58 0)
-			(hide yes)
+			(at 251.46 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "40V"
-			(at 251.46 63.5 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -10034,7 +9723,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOLEX-MINI-FIT-F-2X03")
+		(lib_id "tronixio:MOLEX-MINI-FIT-F-2X02")
 		(at 254 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -10067,7 +9756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:MOLEX-39012060"
+		(property "Footprint" "tronixio:MOLEX-39012040"
 			(at 254 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -10078,7 +9767,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/39012060"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/39012040"
 			(at 254 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -10100,7 +9789,7 @@
 				)
 			)
 		)
-		(property "Mouser" "538-39-01-2060 / 538-39-00-0039 / 538-39-00-0038-CT"
+		(property "Mouser" "538-39-01-2040 / 538-39-00-0039 / 538-39-00-0038-CT"
 			(at 254 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10115,82 +9804,6 @@
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 274.32 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14dc40c3-159b-407f-8ef8-def1bcc77751")
-		(property "Reference" "H17"
-			(at 274.32 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 274.32 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 274.32 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H17")
 					(unit 1)
 				)
 			)
@@ -10364,7 +9977,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+40V")
-		(at 203.2 129.54 180)
+		(at 205.74 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10372,10 +9985,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c1d5a10-4db3-43ac-970d-d0c7066c9343")
 		(property "Reference" "#PWR06"
-			(at 203.2 119.38 0)
+			(at 205.74 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10386,7 +9998,7 @@
 			)
 		)
 		(property "Value" "+40V"
-			(at 203.2 116.84 0)
+			(at 205.74 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10397,7 +10009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 129.54 0)
+			(at 205.74 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10408,7 +10020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 129.54 0)
+			(at 205.74 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10419,23 +10031,12 @@
 			)
 		)
 		(property "Description" "40V"
-			(at 203.2 129.54 0)
-			(hide yes)
+			(at 205.74 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "40V"
-			(at 203.2 134.62 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -10553,7 +10154,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:RESISTOR-2512-3K3-1P-2W")
-		(at 137.16 106.68 0)
+		(at 134.62 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10563,7 +10164,7 @@
 		(dnp no)
 		(uuid "1d972745-1b05-45e8-a36e-b5caec28ef76")
 		(property "Reference" "R6"
-			(at 137.795 102.87 0)
+			(at 135.255 102.87 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10574,7 +10175,7 @@
 			)
 		)
 		(property "Value" "3k30"
-			(at 137.16 106.68 90)
+			(at 134.62 106.68 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10584,7 +10185,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:RESISTOR-SMD-2512"
-			(at 137.16 119.38 0)
+			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10595,7 +10196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 106.68 0)
+			(at 134.62 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10606,7 +10207,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 119.38 0)
+			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10617,7 +10218,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 137.795 112.395 0)
+			(at 135.255 112.395 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10629,7 +10230,7 @@
 			)
 		)
 		(property "Mouser" "279-CRGH2512J3K3"
-			(at 137.16 121.92 0)
+			(at 134.62 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10640,7 +10241,7 @@
 			)
 		)
 		(property "Power" "2W"
-			(at 137.795 110.49 0)
+			(at 135.255 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10667,7 +10268,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:CAPACITOR-1206-47N-100V-5P-X7R")
-		(at 167.64 55.88 0)
+		(at 167.64 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10677,7 +10278,7 @@
 		(dnp no)
 		(uuid "1e389695-20f0-48d2-bbf3-9c439b2c4e0d")
 		(property "Reference" "C6"
-			(at 168.275 53.34 0)
+			(at 168.275 50.8 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10688,7 +10289,7 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 168.275 58.42 0)
+			(at 168.275 55.88 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10699,7 +10300,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
-			(at 167.64 66.04 0)
+			(at 167.64 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10710,7 +10311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 58.42 0)
+			(at 167.64 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10721,7 +10322,7 @@
 			)
 		)
 		(property "Description" "Capacitor Unpolarized"
-			(at 167.64 71.12 0)
+			(at 167.64 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10732,18 +10333,6 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 168.275 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "100V"
 			(at 168.275 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10755,8 +10344,20 @@
 				(justify left)
 			)
 		)
+		(property "Voltage" "100V"
+			(at 168.275 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
 		(property "Mouser" "603-CC126JRX7R0BB473"
-			(at 167.64 68.58 0)
+			(at 167.64 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10783,7 +10384,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:DIODES-SDT30B100-DPAK")
-		(at 60.96 58.42 180)
+		(at 58.42 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10793,7 +10394,7 @@
 		(dnp no)
 		(uuid "230aa024-8874-4d4a-b063-165a7c034f49")
 		(property "Reference" "D2"
-			(at 60.96 60.96 0)
+			(at 58.42 60.96 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10803,7 +10404,7 @@
 			)
 		)
 		(property "Value" "SDT30B100"
-			(at 60.96 55.88 0)
+			(at 58.42 55.88 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10813,7 +10414,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:TO-252-2"
-			(at 60.96 53.34 0)
+			(at 58.42 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10824,7 +10425,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/part/view/SDT30B100"
-			(at 60.96 50.8 0)
+			(at 58.42 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10835,7 +10436,7 @@
 			)
 		)
 		(property "Description" "Diode Schottky"
-			(at 60.96 45.72 0)
+			(at 58.42 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10846,7 +10447,7 @@
 			)
 		)
 		(property "Mouser" "621-SDT30B100D1-13"
-			(at 60.96 48.26 0)
+			(at 58.42 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10876,7 +10477,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:WURTH-WCAP-AI3H-10000U-63V")
-		(at 83.82 81.28 0)
+		(at 81.28 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10886,7 +10487,7 @@
 		(dnp no)
 		(uuid "27a8f8d0-ba68-47b4-8e7e-dfe006459ddc")
 		(property "Reference" "C2"
-			(at 83.185 78.74 0)
+			(at 80.645 78.74 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10897,7 +10498,7 @@
 			)
 		)
 		(property "Value" "10000µ"
-			(at 83.185 83.82 0)
+			(at 80.645 83.82 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10908,7 +10509,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:CAPACITOR-ELECTROLYTIC-RADIAL-350-520-010-WURTH"
-			(at 83.82 91.44 0)
+			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10919,7 +10520,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/861140786024.pdf"
-			(at 83.82 93.98 0)
+			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10930,7 +10531,7 @@
 			)
 		)
 		(property "Description" "Capacitor Polarized"
-			(at 83.82 96.52 0)
+			(at 81.28 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10941,7 +10542,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 84.455 88.9 0)
+			(at 81.915 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10953,7 +10554,7 @@
 			)
 		)
 		(property "Voltage" "63V"
-			(at 83.185 86.36 0)
+			(at 80.645 86.36 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10964,7 +10565,7 @@
 			)
 		)
 		(property "Mouser" "710-861140786024"
-			(at 83.82 99.06 0)
+			(at 81.28 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11184,12 +10785,104 @@
 		)
 	)
 	(symbol
+		(lib_id "tronixio:SAMESKY-HSE19-361616P")
+		(at 180.34 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f8acfb9-603d-4482-95a5-5bd8a67bec15")
+		(property "Reference" "HS1"
+			(at 180.34 123.19 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "HSE19-361616P"
+			(at 180.34 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:SAMESKY-HSE19-361616P"
+			(at 180.34 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/thermal-management/heat-sinks/board-level-heat-sinks/extruded-heat-sinks/hse19-361616p"
+			(at 180.34 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Heatsink - Extruded Heat Sink, TO-220, Aluminum, PCB, 4 mm Vertical Solder Pin"
+			(at 180.34 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Mouser" "179-HSE19-361616P"
+			(at 180.34 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "915a22a1-eac8-4e71-be4c-62610ac293a9")
+		)
+		(pin "1"
+			(uuid "abe4e2ef-0840-460e-a913-84d19cdd168f")
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:MOUNTING-HOLE-3MM-MASK")
 		(at 269.24 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11260,84 +10953,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 274.32 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33252183-d0d5-4fab-9466-26fcdcd30d00")
-		(property "Reference" "H19"
-			(at 274.32 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 274.32 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 274.32 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:DIODES-SD101AW-SOD")
-		(at 121.92 88.9 0)
+		(at 119.38 88.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11349,7 +10966,7 @@
 		(fields_autoplaced yes)
 		(uuid "3372e6f1-1e98-4926-a091-de32b6ad067f")
 		(property "Reference" "D5"
-			(at 121.92 86.36 0)
+			(at 119.38 86.36 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11359,7 +10976,7 @@
 			)
 		)
 		(property "Value" "SD101AW"
-			(at 121.92 91.44 0)
+			(at 119.38 91.44 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11369,7 +10986,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:SOD-123"
-			(at 121.92 93.98 0)
+			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11380,7 +10997,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/part/view/SD101AW"
-			(at 121.92 96.52 0)
+			(at 119.38 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11391,7 +11008,7 @@
 			)
 		)
 		(property "Description" "Diode Schottky"
-			(at 121.92 101.6 0)
+			(at 119.38 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11402,7 +11019,7 @@
 			)
 		)
 		(property "Mouser" "621-SD101AW-F"
-			(at 121.92 99.06 0)
+			(at 119.38 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11413,7 +11030,7 @@
 			)
 		)
 		(property "Part Marking" "S1/SK"
-			(at 121.92 101.6 0)
+			(at 119.38 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11440,7 +11057,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:POWER-FLAG")
-		(at 248.92 114.3 0)
+		(at 66.04 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11451,7 +11068,7 @@
 		(fields_autoplaced yes)
 		(uuid "3634c035-da8c-4f35-9554-82faaf545528")
 		(property "Reference" "#FLG04"
-			(at 248.92 106.68 0)
+			(at 66.04 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11462,7 +11079,7 @@
 			)
 		)
 		(property "Value" "POWER-FLAG"
-			(at 248.92 109.22 0)
+			(at 66.04 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,7 +11090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 114.3 0)
+			(at 66.04 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11484,7 +11101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 114.3 0)
+			(at 66.04 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11495,7 +11112,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 248.92 114.3 0)
+			(at 66.04 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11631,7 +11248,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:WURTH-WCAP-ATLI-22U-63V")
-		(at 93.98 101.6 0)
+		(at 91.44 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11641,7 +11258,7 @@
 		(dnp no)
 		(uuid "3d5b45dd-8527-4449-8aba-bd38eb674f0e")
 		(property "Reference" "C3"
-			(at 93.345 99.06 0)
+			(at 90.805 99.06 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11652,7 +11269,7 @@
 			)
 		)
 		(property "Value" "22µ"
-			(at 93.345 104.14 0)
+			(at 90.805 104.14 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11663,7 +11280,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:CAPACITOR-ELECTROLYTIC-RADIAL-063-110-025-WURTH"
-			(at 93.98 111.76 0)
+			(at 91.44 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11674,7 +11291,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/860080773004.pdf"
-			(at 93.98 114.3 0)
+			(at 91.44 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11685,7 +11302,7 @@
 			)
 		)
 		(property "Description" "Capacitor Polarized"
-			(at 93.98 116.84 0)
+			(at 91.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11696,7 +11313,7 @@
 			)
 		)
 		(property "Voltage" "63V"
-			(at 93.345 106.68 0)
+			(at 90.805 106.68 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11707,7 +11324,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 94.615 109.22 0)
+			(at 92.075 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11719,7 +11336,7 @@
 			)
 		)
 		(property "Mouser" "710-860080773004"
-			(at 93.98 119.38 0)
+			(at 91.44 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11756,8 +11373,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e88692b-8b9c-4ba2-a825-d7794e87a8a1")
-		(property "Reference" "K3"
-			(at 257.81 116.84 0)
+		(property "Reference" "K2"
+			(at 257.81 109.22 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11766,8 +11383,8 @@
 				)
 			)
 		)
-		(property "Value" "±40VDC"
-			(at 257.81 109.22 0)
+		(property "Value" "+40VDC"
+			(at 257.81 116.84 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11835,7 +11452,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "K3")
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -11843,7 +11460,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+VCC")
-		(at 71.12 45.72 0)
+		(at 68.58 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11851,10 +11468,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3edff1cc-7202-46e3-81ea-87ca43491da8")
 		(property "Reference" "#PWR01"
-			(at 71.12 55.88 0)
+			(at 68.58 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11865,7 +11481,7 @@
 			)
 		)
 		(property "Value" "+VCC"
-			(at 71.12 58.42 0)
+			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11876,7 +11492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 45.72 0)
+			(at 68.58 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +11503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 45.72 0)
+			(at 68.58 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11898,23 +11514,12 @@
 			)
 		)
 		(property "Description" "VCC"
-			(at 71.12 45.72 0)
-			(hide yes)
+			(at 68.58 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "VCC"
-			(at 71.12 40.64 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -12047,7 +11652,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:RESISTOR-2512-1K-1P-1W")
-		(at 132.08 55.88 0)
+		(at 129.54 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12057,7 +11662,7 @@
 		(dnp no)
 		(uuid "4186e32e-ee66-4526-abee-939d8bffe9f2")
 		(property "Reference" "R5"
-			(at 131.445 52.07 0)
+			(at 128.905 52.07 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -12068,7 +11673,7 @@
 			)
 		)
 		(property "Value" "1k0"
-			(at 132.08 55.88 90)
+			(at 129.54 55.88 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -12078,7 +11683,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:RESISTOR-SMD-2512"
-			(at 132.08 68.58 0)
+			(at 129.54 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -12089,7 +11694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 55.88 0)
+			(at 129.54 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12100,7 +11705,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 68.58 0)
+			(at 129.54 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12111,7 +11716,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 131.445 59.69 0)
+			(at 128.905 59.69 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -12122,7 +11727,7 @@
 			)
 		)
 		(property "Mouser" "603-RC2512FK-071KL"
-			(at 132.08 71.12 0)
+			(at 129.54 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -12149,17 +11754,17 @@
 	)
 	(symbol
 		(lib_id "tronixio:TRONIXIO-TP")
-		(at 93.98 88.9 0)
+		(at 91.44 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "428d4a2c-ea5b-41c1-9559-a8e3521154d7")
 		(property "Reference" "TP2"
-			(at 93.98 81.915 0)
+			(at 91.44 81.915 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -12169,7 +11774,7 @@
 			)
 		)
 		(property "Value" "+33V6"
-			(at 93.98 83.82 0)
+			(at 91.44 83.82 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -12179,7 +11784,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:TRONIXIO-TP"
-			(at 93.98 96.52 0)
+			(at 91.44 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12190,7 +11795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 101.6 0)
+			(at 91.44 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12201,7 +11806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 88.9 0)
+			(at 91.44 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12279,7 +11884,7 @@
 			)
 		)
 		(property "Description" "Heatsink - Board Level Power Semiconductor Heat Sinks"
-			(at 193.04 147.32 0)
+			(at 193.04 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12290,7 +11895,7 @@
 			)
 		)
 		(property "Mouser" "567-657-25ABEP"
-			(at 193.04 144.78 0)
+			(at 193.04 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12395,82 +12000,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 264.16 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d13ba9c-8b17-4f3e-9295-e1976803e92d")
-		(property "Reference" "H11"
-			(at 264.16 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 264.16 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 264.16 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:+50V")
 		(at 243.84 45.72 0)
 		(unit 1)
@@ -12480,7 +12009,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f37391a-8536-47a3-a9b9-dbc9c892f127")
 		(property "Reference" "#PWR010"
 			(at 243.84 55.88 0)
@@ -12527,23 +12055,12 @@
 			)
 		)
 		(property "Description" "50V"
-			(at 243.84 45.72 0)
-			(hide yes)
+			(at 243.84 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "50V"
-			(at 243.84 40.64 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -12855,82 +12372,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 269.24 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e7faccf-5cd3-44a0-8b52-734046ed89a4")
-		(property "Reference" "H12"
-			(at 269.24 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 269.24 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 269.24 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:CHEMI-CON-KYB-1000U-63V")
 		(at 228.6 93.98 0)
 		(unit 1)
@@ -13161,8 +12602,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 269.24 172.72 0)
+		(lib_id "tronixio:TRONIXIO-TP")
+		(at 73.66 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13171,85 +12612,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "67438506-ab7d-4481-83ef-11d5161ec5c6")
-		(property "Reference" "H16"
-			(at 269.24 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 269.24 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 269.24 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:TRONIXIO-TP")
-		(at 81.28 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "67ffcda5-da5f-40e3-aec3-4bc1b1675bc5")
 		(property "Reference" "TP1"
-			(at 81.28 43.18 0)
+			(at 73.66 43.18 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13259,7 +12624,7 @@
 			)
 		)
 		(property "Value" "+VCC"
-			(at 81.28 40.64 0)
+			(at 73.66 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -13270,7 +12635,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:TRONIXIO-TP"
-			(at 81.28 55.88 0)
+			(at 73.66 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13281,7 +12646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 60.96 0)
+			(at 73.66 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13292,7 +12657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 48.26 0)
+			(at 73.66 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13433,25 +12798,25 @@
 		(dnp no)
 		(uuid "6e285218-3b11-476a-b4e1-7aaf920022dc")
 		(property "Reference" "C7"
-			(at 200.025 78.74 0)
+			(at 201.295 78.74 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.15 1.15)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "10n"
-			(at 200.025 83.82 0)
+			(at 201.295 83.82 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.15 1.15)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
@@ -13539,7 +12904,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:RESISTOR-2512-4K7-1P-1W")
-		(at 114.3 68.58 0)
+		(at 111.76 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13549,7 +12914,7 @@
 		(dnp no)
 		(uuid "6f326186-083c-41f5-9e5f-5c837db10237")
 		(property "Reference" "R3"
-			(at 113.665 64.77 0)
+			(at 111.125 64.77 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13560,7 +12925,7 @@
 			)
 		)
 		(property "Value" "4k70"
-			(at 114.3 68.58 90)
+			(at 111.76 68.58 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13570,7 +12935,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:RESISTOR-SMD-2512"
-			(at 114.3 81.28 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -13581,7 +12946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 68.58 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13592,7 +12957,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 114.3 81.28 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13603,7 +12968,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 113.665 72.39 0)
+			(at 111.125 72.39 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13614,7 +12979,7 @@
 			)
 		)
 		(property "Mouser" "603-RC2512FK-074K7L"
-			(at 114.3 83.82 0)
+			(at 111.76 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -13641,7 +13006,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:POWER-FLAG")
-		(at 76.2 48.26 0)
+		(at 66.04 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13652,7 +13017,7 @@
 		(fields_autoplaced yes)
 		(uuid "7703ce87-f7a2-4c05-bcca-b7e588332270")
 		(property "Reference" "#FLG01"
-			(at 76.2 40.64 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13663,7 +13028,7 @@
 			)
 		)
 		(property "Value" "POWER-FLAG"
-			(at 76.2 43.18 0)
+			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13674,7 +13039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 48.26 0)
+			(at 66.04 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13685,7 +13050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 48.26 0)
+			(at 66.04 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13696,7 +13061,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 76.2 48.26 0)
+			(at 66.04 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13713,98 +13078,6 @@
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:PANJIT-STR10100BF")
-		(at 220.98 60.96 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a75d11f-6a07-4518-b58b-845d42e05e29")
-		(property "Reference" "D7"
-			(at 221.615 58.42 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STR10100BF"
-			(at 221.615 64.135 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "tronixio:DIODE-SMBF"
-			(at 215.9 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/STR10100BF.pdf"
-			(at 213.36 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "Diode Schottky"
-			(at 220.98 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "241-STR10100BFR10701"
-			(at 210.82 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b15fdb9-ef97-43fb-a1e9-c24b63e26368")
-		)
-		(pin "2"
-			(uuid "93bbf247-4014-4e60-a1cc-a27f76e1221c")
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -14115,7 +13388,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:WURTH-WCAP-AI3H-10000U-63V")
-		(at 73.66 81.28 0)
+		(at 71.12 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14125,7 +13398,7 @@
 		(dnp no)
 		(uuid "84a42843-6ac3-43a8-9d13-74951e0a1991")
 		(property "Reference" "C1"
-			(at 73.025 78.74 0)
+			(at 70.485 78.74 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14136,7 +13409,7 @@
 			)
 		)
 		(property "Value" "10000µ"
-			(at 73.025 83.82 0)
+			(at 70.485 83.82 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14147,7 +13420,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:CAPACITOR-ELECTROLYTIC-RADIAL-350-520-010-WURTH"
-			(at 73.66 91.44 0)
+			(at 71.12 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14158,7 +13431,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/861140786024.pdf"
-			(at 73.66 93.98 0)
+			(at 71.12 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14169,7 +13442,7 @@
 			)
 		)
 		(property "Description" "Capacitor Polarized"
-			(at 73.66 96.52 0)
+			(at 71.12 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14180,7 +13453,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 74.295 88.9 0)
+			(at 71.755 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -14192,7 +13465,7 @@
 			)
 		)
 		(property "Voltage" "63V"
-			(at 73.025 86.36 0)
+			(at 70.485 86.36 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14203,7 +13476,7 @@
 			)
 		)
 		(property "Mouser" "710-861140786024"
-			(at 73.66 99.06 0)
+			(at 71.12 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14230,7 +13503,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:ONSEMI-BC546B-TO92")
-		(at 129.54 88.9 0)
+		(at 127 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14240,7 +13513,7 @@
 		(dnp no)
 		(uuid "84fe66af-ff45-4598-b8b4-532cb5a74cf6")
 		(property "Reference" "Q1"
-			(at 131.445 82.55 0)
+			(at 128.905 82.55 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14251,7 +13524,7 @@
 			)
 		)
 		(property "Value" "BC546B"
-			(at 131.445 84.455 0)
+			(at 128.905 84.455 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14262,7 +13535,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:TO-92-INLINE-WIDE"
-			(at 129.54 101.6 0)
+			(at 127 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14273,7 +13546,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/products/discrete-power-modules/general-purpose-and-low-vcesat-transistors/BC546(LEGACY%20FAIRCHILD)"
-			(at 129.54 104.14 0)
+			(at 127 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14284,7 +13557,7 @@
 			)
 		)
 		(property "Description" "Transistor - General Purpose and Low VCE(sat) Transistors"
-			(at 129.54 106.68 0)
+			(at 127 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14295,7 +13568,7 @@
 			)
 		)
 		(property "Mouser" "512-BC546BTF"
-			(at 129.54 109.22 0)
+			(at 127 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14408,13 +13681,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86511d98-a6ad-437f-9d3b-32530c4a37de")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 243.84 66.04 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -14474,7 +13747,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -14482,7 +13755,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:RESISTOR-2512-12K-1P-1W")
-		(at 101.6 106.68 0)
+		(at 99.06 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14492,7 +13765,7 @@
 		(dnp no)
 		(uuid "89c2c18c-304d-4e55-9ce1-264aaaf54f48")
 		(property "Reference" "R2"
-			(at 100.965 102.87 0)
+			(at 98.425 102.87 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14503,7 +13776,7 @@
 			)
 		)
 		(property "Value" "12k0"
-			(at 101.6 106.68 90)
+			(at 99.06 106.68 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14513,7 +13786,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:RESISTOR-SMD-2512"
-			(at 101.6 119.38 0)
+			(at 99.06 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -14524,7 +13797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 106.68 0)
+			(at 99.06 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14535,7 +13808,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 119.38 0)
+			(at 99.06 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14546,7 +13819,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 100.965 110.49 0)
+			(at 98.425 110.49 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14557,7 +13830,7 @@
 			)
 		)
 		(property "Mouser" "603-RC2512FK-0712KL"
-			(at 101.6 121.92 0)
+			(at 99.06 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -14577,82 +13850,6 @@
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 248.92 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a3d5fad-2750-4500-95e8-18afdf91e8d6")
-		(property "Reference" "H2"
-			(at 248.92 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 248.92 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 248.92 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14738,84 +13935,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 264.16 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91ebb179-aa3d-4fe0-aeaa-2b0d44887aaf")
-		(property "Reference" "H15"
-			(at 264.16 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 264.16 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 264.16 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:CAPACITOR-1206-10N-100V-5P-X7R")
-		(at 109.22 96.52 0)
+		(at 106.68 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14825,7 +13946,7 @@
 		(dnp no)
 		(uuid "95ed0de3-3a20-4bb9-893c-5aad30f81588")
 		(property "Reference" "C4"
-			(at 108.585 93.98 0)
+			(at 106.045 93.98 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14836,7 +13957,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 108.585 99.06 0)
+			(at 106.045 99.06 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14847,7 +13968,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
-			(at 109.22 106.68 0)
+			(at 106.68 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14858,7 +13979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 99.06 0)
+			(at 106.68 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14869,7 +13990,7 @@
 			)
 		)
 		(property "Description" "Capacitor Unpolarized"
-			(at 109.22 111.76 0)
+			(at 106.68 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14880,7 +14001,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 109.855 101.6 0)
+			(at 107.315 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -14892,7 +14013,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 109.855 104.14 0)
+			(at 107.315 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -14904,7 +14025,7 @@
 			)
 		)
 		(property "Mouser" "80-C1206C103J1R"
-			(at 109.22 109.22 0)
+			(at 106.68 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15009,160 +14130,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 254 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ff58ab4-ba25-47b9-8318-0332e0739ad0")
-		(property "Reference" "H7"
-			(at 254 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 254 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 254 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 254 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 259.08 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1f16a2b-de23-48c5-8783-adb6e92fe7da")
-		(property "Reference" "H14"
-			(at 259.08 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 259.08 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 259.08 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:RESISTOR-2512-1K-1P-1W")
-		(at 160.02 55.88 0)
+		(at 157.48 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15172,7 +14141,7 @@
 		(dnp no)
 		(uuid "a4ddd7f6-4778-4913-9ab6-9b17b27f3b06")
 		(property "Reference" "R7"
-			(at 160.655 52.07 0)
+			(at 158.115 49.53 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -15183,7 +14152,7 @@
 			)
 		)
 		(property "Value" "1k0"
-			(at 160.02 55.88 90)
+			(at 157.48 53.34 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -15193,7 +14162,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:RESISTOR-SMD-2512"
-			(at 160.02 68.58 0)
+			(at 157.48 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -15204,7 +14173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 55.88 0)
+			(at 157.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15215,7 +14184,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 68.58 0)
+			(at 157.48 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15226,7 +14195,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 160.655 59.69 0)
+			(at 158.115 57.15 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -15237,7 +14206,7 @@
 			)
 		)
 		(property "Mouser" "603-RC2512FK-071KL"
-			(at 160.02 71.12 0)
+			(at 157.48 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -15264,7 +14233,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+40V")
-		(at 208.28 129.54 180)
+		(at 210.82 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15272,10 +14241,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac54120a-27fd-49ff-8323-a7aeb87b0067")
 		(property "Reference" "#PWR07"
-			(at 208.28 119.38 0)
+			(at 210.82 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15286,7 +14254,7 @@
 			)
 		)
 		(property "Value" "+40V"
-			(at 208.28 116.84 0)
+			(at 210.82 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15297,7 +14265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 129.54 0)
+			(at 210.82 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15308,7 +14276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 129.54 0)
+			(at 210.82 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15319,23 +14287,12 @@
 			)
 		)
 		(property "Description" "40V"
-			(at 208.28 129.54 0)
-			(hide yes)
+			(at 210.82 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "40V"
-			(at 208.28 134.62 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -15346,234 +14303,6 @@
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 254 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b220dbe0-f642-40b4-bf2b-2824f3a9b72e")
-		(property "Reference" "H5"
-			(at 254 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 254 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 254 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 254 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 264.16 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5a692d7-0988-4212-8fae-699f85dad47e")
-		(property "Reference" "H9"
-			(at 264.16 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 264.16 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 264.16 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 274.32 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5db105f-1fa1-4af1-8140-fcdfdec914a9")
-		(property "Reference" "H13"
-			(at 274.32 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 274.32 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 274.32 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -15706,7 +14435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8598274-ba06-4702-b738-8e31b00b196c")
-		(property "Reference" "K2"
+		(property "Reference" "K3"
 			(at 248.92 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15775,14 +14504,14 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "K2")
+					(reference "K3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "tronixio:RESISTOR-2512-3K9-1P-1W")
+		(lib_id "tronixio:RESISTOR-2512-56K-1P-1W")
 		(at 238.76 86.36 0)
 		(unit 1)
 		(body_style 1)
@@ -15803,7 +14532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k90"
+		(property "Value" "56k0"
 			(at 238.76 86.36 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -15817,7 +14546,7 @@
 			(at 238.76 99.06 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -15842,7 +14571,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
@@ -15857,11 +14586,11 @@
 				(justify left)
 			)
 		)
-		(property "Mouser" "603-RC2512FK-073K9L"
+		(property "Mouser" "603-RC2512FK-0756KL"
 			(at 238.76 101.6 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -15893,7 +14622,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b96d36d5-0d0d-475a-9603-278f696b3697")
 		(property "Reference" "#PWR04"
 			(at 190.5 119.38 0)
@@ -15940,23 +14668,12 @@
 			)
 		)
 		(property "Description" "40V"
-			(at 190.5 129.54 0)
-			(hide yes)
+			(at 190.5 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "40V"
-			(at 190.5 134.62 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -15973,160 +14690,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 248.92 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc4d773e-245c-4a44-b54f-01da91768a5e")
-		(property "Reference" "H3"
-			(at 248.92 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 248.92 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 248.92 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 259.08 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c58bf2ee-c2ad-4fed-a65f-03c380b5d160")
-		(property "Reference" "H10"
-			(at 259.08 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 259.08 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 259.08 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:CAPACITOR-1206-15N-100V-5P-X7R")
-		(at 124.46 68.58 0)
+		(at 121.92 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16136,7 +14701,7 @@
 		(dnp no)
 		(uuid "c9762dd1-5e36-4427-a253-212b2ae38bcc")
 		(property "Reference" "C5"
-			(at 123.825 66.04 0)
+			(at 121.285 66.04 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16147,7 +14712,7 @@
 			)
 		)
 		(property "Value" "15n"
-			(at 123.825 71.12 0)
+			(at 121.285 71.12 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16158,7 +14723,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
-			(at 124.46 78.74 0)
+			(at 121.92 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16169,7 +14734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 71.12 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16180,7 +14745,7 @@
 			)
 		)
 		(property "Description" "Capacitor Unpolarized"
-			(at 124.46 83.82 0)
+			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16191,7 +14756,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 125.095 73.66 0)
+			(at 122.555 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16203,7 +14768,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 125.095 76.2 0)
+			(at 122.555 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16215,7 +14780,7 @@
 			)
 		)
 		(property "Mouser" "80-C1206C153J1R"
-			(at 124.46 81.28 0)
+			(at 121.92 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16241,12 +14806,104 @@
 		)
 	)
 	(symbol
+		(lib_id "tronixio:PANJIT-STR10100BF")
+		(at 220.98 60.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9aba53c-5dac-4f19-9c84-187b64cf3d8d")
+		(property "Reference" "D7"
+			(at 221.615 57.785 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STR10100BF"
+			(at 221.615 64.135 90)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:DIODE-SMBF"
+			(at 215.9 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/STR10100BF.pdf"
+			(at 213.36 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Description" "Diode Schottky"
+			(at 210.82 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Mouser" "241-STR10100BFR10701"
+			(at 208.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b687e746-a771-4756-92b5-d092f71671cd")
+		)
+		(pin "2"
+			(uuid "a8446f3e-d1d4-4320-a5d8-64b48e2abadf")
+		)
+		(instances
+			(project "main"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:MOUNTING-HOLE-3MM-MASK")
 		(at 274.32 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16318,7 +14975,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:RESISTOR-2512-150K-1P-1W")
-		(at 101.6 96.52 0)
+		(at 99.06 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16328,7 +14985,7 @@
 		(dnp no)
 		(uuid "cb47500a-c2be-4414-be13-47e9580eb708")
 		(property "Reference" "R1"
-			(at 100.965 92.71 0)
+			(at 98.425 92.71 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16339,7 +14996,7 @@
 			)
 		)
 		(property "Value" "150k"
-			(at 101.6 96.52 90)
+			(at 99.06 96.52 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16349,7 +15006,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:RESISTOR-SMD-2512"
-			(at 101.6 109.22 0)
+			(at 99.06 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16360,7 +15017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 96.52 0)
+			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16371,7 +15028,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 109.22 0)
+			(at 99.06 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16382,7 +15039,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 100.965 100.33 0)
+			(at 98.425 100.33 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16393,7 +15050,7 @@
 			)
 		)
 		(property "Mouser" "603-RC2512FK-07150KL"
-			(at 101.6 111.76 0)
+			(at 99.06 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16419,7 +15076,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:KINGBRIGHT-LED-05MM-ORANGE")
+		(lib_id "tronixio:VCC-LED-05MM-BLUE")
 		(at 238.76 101.6 270)
 		(mirror x)
 		(unit 1)
@@ -16463,7 +15120,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ND.pdf"
+		(property "Datasheet" "https://vcc.co/products/led-through-hole-5mm-t-1-3-4-blue-470-nm-1500-mcd-3-5v_vaol-5lsby1/"
 			(at 231.14 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16474,18 +15131,18 @@
 				)
 			)
 		)
-		(property "Description" "Light Emitting Diode"
+		(property "Description" "LED"
 			(at 238.76 101.6 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
 			)
 		)
-		(property "Mouser" "604-WP7113ND"
+		(property "Mouser" "593-VAOL-5LSBY1"
 			(at 228.6 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16524,7 +15181,7 @@
 		(dnp no)
 		(uuid "d15200ac-d4b7-441b-8635-7d68e408c56c")
 		(property "Reference" "Q4"
-			(at 183.515 85.725 0)
+			(at 183.515 83.185 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16535,7 +15192,7 @@
 			)
 		)
 		(property "Value" "MJE15035"
-			(at 183.515 83.185 0)
+			(at 183.515 85.09 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16617,7 +15274,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1b2e7b0-2d48-433f-831b-6112518d5873")
 		(property "Reference" "#PWR05"
 			(at 195.58 119.38 0)
@@ -16664,23 +15320,12 @@
 			)
 		)
 		(property "Description" "40V"
-			(at 195.58 129.54 0)
-			(hide yes)
+			(at 195.58 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "40V"
-			(at 195.58 134.62 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -16698,7 +15343,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:DIODES-SD101AW-SOD")
-		(at 152.4 88.9 0)
+		(at 149.86 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16708,7 +15353,7 @@
 		(dnp no)
 		(uuid "dc7e6ae5-692d-476a-9005-3c1f5b6b615b")
 		(property "Reference" "D6"
-			(at 152.4 86.36 0)
+			(at 149.86 86.36 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16718,7 +15363,7 @@
 			)
 		)
 		(property "Value" "SD101AW"
-			(at 152.4 91.44 0)
+			(at 149.86 91.44 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16728,7 +15373,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:SOD-123"
-			(at 152.4 93.98 0)
+			(at 149.86 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16739,7 +15384,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/part/view/SD101AW"
-			(at 152.4 96.52 0)
+			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16750,7 +15395,7 @@
 			)
 		)
 		(property "Description" "Diode Schottky"
-			(at 152.4 101.6 0)
+			(at 149.86 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16761,7 +15406,7 @@
 			)
 		)
 		(property "Mouser" "621-SD101AW-F"
-			(at 152.4 99.06 0)
+			(at 149.86 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16772,7 +15417,7 @@
 			)
 		)
 		(property "Part Marking" "S1/SK"
-			(at 152.4 101.6 0)
+			(at 149.86 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16799,7 +15444,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:DIODES-SDT30B100-DPAK")
-		(at 60.96 104.14 0)
+		(at 58.42 104.14 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16810,7 +15455,7 @@
 		(dnp no)
 		(uuid "dc989cb2-d4b9-4681-a0a4-af183decfda4")
 		(property "Reference" "D3"
-			(at 60.96 101.6 0)
+			(at 58.42 101.6 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16820,7 +15465,7 @@
 			)
 		)
 		(property "Value" "SDT30B100"
-			(at 60.96 106.68 0)
+			(at 58.42 106.68 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -16830,7 +15475,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:TO-252-2"
-			(at 60.96 99.06 0)
+			(at 58.42 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16841,7 +15486,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/part/view/SDT30B100"
-			(at 60.96 96.52 0)
+			(at 58.42 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16852,7 +15497,7 @@
 			)
 		)
 		(property "Description" "Diode Schottky"
-			(at 60.96 91.44 0)
+			(at 58.42 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16863,7 +15508,7 @@
 			)
 		)
 		(property "Mouser" "621-SDT30B100D1-13"
-			(at 60.96 93.98 0)
+			(at 58.42 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16995,7 +15640,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:SCHURTER-OGN-3132874")
-		(at 99.06 48.26 0)
+		(at 96.52 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17006,7 +15651,7 @@
 		(fields_autoplaced yes)
 		(uuid "e12857f6-ebe9-4586-8ec7-f666af7a6f31")
 		(property "Reference" "F1"
-			(at 99.06 45.72 0)
+			(at 96.52 45.72 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17016,7 +15661,7 @@
 			)
 		)
 		(property "Value" "15A"
-			(at 99.06 50.8 0)
+			(at 96.52 50.8 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17026,7 +15671,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:SCHURTER-OGN-3132874"
-			(at 99.06 53.34 0)
+			(at 96.52 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17037,7 +15682,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.schurter.com/en/datasheet/OGN#"
-			(at 99.06 55.88 0)
+			(at 96.52 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17048,7 +15693,7 @@
 			)
 		)
 		(property "Description" "Fuseholder - Open Design, 5 x 20 mm, THT, SMT, THR, IEC 60335-1 - 10A/16A"
-			(at 99.06 48.26 0)
+			(at 96.52 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17059,7 +15704,7 @@
 			)
 		)
 		(property "Mouser" "693-3-132-874"
-			(at 99.06 58.42 0)
+			(at 96.52 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17086,7 +15731,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:ONSEMI-TL431")
-		(at 114.3 101.6 0)
+		(at 111.76 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17096,7 +15741,7 @@
 		(dnp no)
 		(uuid "e25ac8c9-9ece-44cc-8eb6-edf396b0f2ba")
 		(property "Reference" "U1"
-			(at 114.935 98.425 0)
+			(at 112.395 98.425 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17107,7 +15752,7 @@
 			)
 		)
 		(property "Value" "TL431"
-			(at 114.935 104.775 0)
+			(at 112.395 104.775 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17118,7 +15763,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:TO-92-INLINE"
-			(at 114.3 111.76 0)
+			(at 111.76 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17129,7 +15774,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/products/power-management/voltage-references-supervisors/voltage-references/TL431"
-			(at 114.3 114.3 0)
+			(at 111.76 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17140,7 +15785,7 @@
 			)
 		)
 		(property "Description" "IC - Programmable Precision References"
-			(at 114.3 116.84 0)
+			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17151,7 +15796,7 @@
 			)
 		)
 		(property "Mouser" "863-TL431BCLPG"
-			(at 114.3 119.38 0)
+			(at 111.76 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17181,7 +15826,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:ONSEMI-BC546B-TO92")
-		(at 144.78 88.9 0)
+		(at 142.24 88.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17192,7 +15837,7 @@
 		(dnp no)
 		(uuid "e3353ca8-b20e-4df0-b2d1-ff779f5222c7")
 		(property "Reference" "Q2"
-			(at 142.875 82.55 0)
+			(at 140.335 82.55 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17203,7 +15848,7 @@
 			)
 		)
 		(property "Value" "BC546B"
-			(at 142.875 84.455 0)
+			(at 140.335 84.455 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17214,7 +15859,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:TO-92-INLINE-WIDE"
-			(at 144.78 101.6 0)
+			(at 142.24 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17225,7 +15870,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/products/discrete-power-modules/general-purpose-and-low-vcesat-transistors/BC546(LEGACY%20FAIRCHILD)"
-			(at 144.78 104.14 0)
+			(at 142.24 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17236,7 +15881,7 @@
 			)
 		)
 		(property "Description" "Transistor - General Purpose and Low VCE(sat) Transistors"
-			(at 144.78 106.68 0)
+			(at 142.24 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17247,7 +15892,7 @@
 			)
 		)
 		(property "Mouser" "512-BC546BTF"
-			(at 144.78 109.22 0)
+			(at 142.24 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17276,82 +15921,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 248.92 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3555c6f-86fc-49fb-afc0-ce7f31a2554b")
-		(property "Reference" "H6"
-			(at 248.92 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 248.92 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 248.92 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:ST-TIP36C-TO247")
 		(at 187.96 66.04 0)
 		(mirror x)
@@ -17364,7 +15933,7 @@
 		(dnp no)
 		(uuid "e3e25165-c6b1-4cde-8dcb-9214da6497ae")
 		(property "Reference" "Q5"
-			(at 194.945 63.5 0)
+			(at 193.04 63.5 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17528,7 +16097,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:DIODES-SDT30B100-DPAK")
-		(at 60.96 48.26 180)
+		(at 58.42 48.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17538,7 +16107,7 @@
 		(dnp no)
 		(uuid "e50ef8cd-0a05-423a-9a3b-2486974b1001")
 		(property "Reference" "D1"
-			(at 60.96 45.72 0)
+			(at 58.42 45.72 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17548,7 +16117,7 @@
 			)
 		)
 		(property "Value" "SDT30B100"
-			(at 60.96 50.8 0)
+			(at 58.42 50.8 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17558,7 +16127,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:TO-252-2"
-			(at 60.96 43.18 0)
+			(at 58.42 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17569,7 +16138,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/part/view/SDT30B100"
-			(at 60.96 40.64 0)
+			(at 58.42 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17580,7 +16149,7 @@
 			)
 		)
 		(property "Description" "Diode Schottky"
-			(at 60.96 35.56 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17591,7 +16160,7 @@
 			)
 		)
 		(property "Mouser" "621-SDT30B100D1-13"
-			(at 60.96 38.1 0)
+			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17621,7 +16190,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:WAKEFIELD-657-25ABEP")
-		(at 205.74 129.54 0)
+		(at 208.28 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17632,7 +16201,7 @@
 		(fields_autoplaced yes)
 		(uuid "e59b9cb9-9aba-49a7-97b6-b0b240306e3e")
 		(property "Reference" "HS3"
-			(at 205.74 123.19 0)
+			(at 208.28 123.19 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17642,7 +16211,7 @@
 			)
 		)
 		(property "Value" "WAKEFIELD-657-25ABEP"
-			(at 205.74 137.16 0)
+			(at 208.28 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17653,7 +16222,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:WAKEFIELD-657-25ABEP"
-			(at 205.74 139.7 0)
+			(at 208.28 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17664,7 +16233,7 @@
 			)
 		)
 		(property "Datasheet" "https://wakefieldthermal.com/wakefield-thermal-heatsink-to-220-pins-notched-657-25abepn/"
-			(at 205.74 142.24 0)
+			(at 208.28 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17675,7 +16244,7 @@
 			)
 		)
 		(property "Description" "Heatsink - Board Level Power Semiconductor Heat Sinks"
-			(at 205.74 147.32 0)
+			(at 208.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17686,7 +16255,7 @@
 			)
 		)
 		(property "Mouser" "567-657-25ABEP"
-			(at 205.74 144.78 0)
+			(at 208.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17717,13 +16286,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e60ffd91-1d5b-44d9-8d96-21703942b2cd")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 233.68 43.18 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -17783,7 +16352,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -17791,7 +16360,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:DIODES-SDT30B100-DPAK")
-		(at 60.96 114.3 0)
+		(at 58.42 114.3 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -17802,7 +16371,7 @@
 		(dnp no)
 		(uuid "e81aa37f-fbf4-4192-ac65-615de963f188")
 		(property "Reference" "D4"
-			(at 60.96 116.84 0)
+			(at 58.42 116.84 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17812,7 +16381,7 @@
 			)
 		)
 		(property "Value" "SDT30B100"
-			(at 60.96 111.76 0)
+			(at 58.42 111.76 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17822,7 +16391,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:TO-252-2"
-			(at 60.96 109.22 0)
+			(at 58.42 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17833,7 +16402,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/part/view/SDT30B100"
-			(at 60.96 106.68 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17844,7 +16413,7 @@
 			)
 		)
 		(property "Description" "Diode Schottky"
-			(at 60.96 101.6 0)
+			(at 58.42 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17855,7 +16424,7 @@
 			)
 		)
 		(property "Mouser" "621-SDT30B100D1-13"
-			(at 60.96 104.14 0)
+			(at 58.42 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17884,82 +16453,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:MOUNTING-HOLE-2MM")
-		(at 269.24 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb318fd6-cf63-4a8c-a0fc-ab509121ff79")
-		(property "Reference" "H18"
-			(at 269.24 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "MOUNTING-HOLE-2MM"
-			(at 269.24 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-2MM"
-			(at 269.24 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "H18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:MOLEX-MIGHTY-SPOX-M-1X04-VERTICAL-TH")
 		(at 40.64 106.68 0)
 		(mirror y)
@@ -17972,7 +16465,7 @@
 		(dnp no)
 		(uuid "ed325e59-4124-4862-924e-9e74b9de0d77")
 		(property "Reference" "K1"
-			(at 40.64 116.84 0)
+			(at 40.64 104.14 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17982,7 +16475,7 @@
 			)
 		)
 		(property "Value" "~50VAC"
-			(at 40.64 104.14 0)
+			(at 40.64 116.84 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18057,100 +16550,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:SAMESKY-HSE19-361616P")
-		(at 180.34 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efcc4a3e-b0e9-4289-bc6f-a37ee9711b41")
-		(property "Reference" "HS1"
-			(at 180.34 123.19 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Value" "HSE19-361616P"
-			(at 180.34 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:SAMESKY-HSE19-361616P"
-			(at 180.34 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/thermal-management/heat-sinks/board-level-heat-sinks/extruded-heat-sinks/hse19-361616p"
-			(at 180.34 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Description" "Heatsink - Extruded Heat Sink, TO-220, Aluminum, PCB, 4 mm Vertical Solder Pin"
-			(at 180.34 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Mouser" "179-HSE19-361616P"
-			(at 180.34 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c28dae4e-6c35-44ea-8365-d0389cbfe8c2")
-		)
-		(pin "2"
-			(uuid "e2f5c566-ed88-45cc-b05c-260f13de540b")
-		)
-		(instances
-			(project "main"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "HS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:RESISTOR-2512-47R-1P-1W")
-		(at 124.46 55.88 0)
+		(at 121.92 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18160,7 +16561,7 @@
 		(dnp no)
 		(uuid "f0c4fd25-701c-4b59-8dfa-8b92a5967a3e")
 		(property "Reference" "R4"
-			(at 123.825 52.07 0)
+			(at 121.285 52.07 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18171,7 +16572,7 @@
 			)
 		)
 		(property "Value" "47Ω"
-			(at 124.46 55.88 90)
+			(at 121.92 55.88 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18181,7 +16582,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:RESISTOR-SMD-2512"
-			(at 124.46 68.58 0)
+			(at 121.92 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -18192,7 +16593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 55.88 0)
+			(at 121.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18203,7 +16604,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 68.58 0)
+			(at 121.92 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18214,7 +16615,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 123.825 59.69 0)
+			(at 121.285 59.69 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18225,7 +16626,7 @@
 			)
 		)
 		(property "Mouser" "603-RC2512FK-0747RL"
-			(at 124.46 71.12 0)
+			(at 121.92 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -18364,7 +16765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f78f2544-fc7f-4082-9609-4bdc9f81c292")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 167.64 180.34 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -18435,7 +16836,7 @@
 		(instances
 			(project "main"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -18557,7 +16958,7 @@
 		(dnp no)
 		(uuid "f94d8b24-b835-4a26-9809-3fb954a8475c")
 		(property "Reference" "Q6"
-			(at 212.725 63.5 0)
+			(at 210.82 63.5 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects

@@ -3537,6 +3537,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "- https://www.ti.com/lit/df/tidrjx2/tidrjx2.pdf?ts=1788433079467"
+		(exclude_from_sim no)
+		(at 173.99 130.175 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "002159d7-eda3-4ccf-9be3-04dc98e31ce9")
+	)
 	(text "0.1\n"
 		(exclude_from_sim no)
 		(at 149.86 60.96 0)
@@ -3569,7 +3579,7 @@
 	)
 	(text "Changer C"
 		(exclude_from_sim no)
-		(at 70.485 88.265 0)
+		(at 69.215 78.105 0)
 		(effects
 			(font
 				(size 2 2)
@@ -3610,10 +3620,16 @@
 		(uuid "f9825577-bfb5-4e3a-835a-3fce61d80f8a")
 	)
 	(junction
-		(at 91.44 101.6)
+		(at 91.44 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ce0ec4d-aa45-4b32-8e9c-55abeece87f8")
+		(uuid "06215492-f09c-47b8-a207-72d5480c9dae")
+	)
+	(junction
+		(at 91.44 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09e681b2-9dc3-4101-800e-ca44de9faf0d")
 	)
 	(junction
 		(at 66.04 134.62)
@@ -3634,7 +3650,7 @@
 		(uuid "174cdc01-4ba3-4fd9-b2c8-e2536e68c5cb")
 	)
 	(junction
-		(at 66.04 93.98)
+		(at 66.04 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "207f7edf-e52a-44df-a984-d60b42245c43")
@@ -3652,10 +3668,10 @@
 		(uuid "2f3fc8f7-c135-473b-bd75-fa5c3aa54096")
 	)
 	(junction
-		(at 111.76 91.44)
+		(at 111.76 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3cb04744-1f20-44e8-9484-7f0836a463d9")
+		(uuid "3b12cf0f-b32c-47c8-a082-b97d9587a23c")
 	)
 	(junction
 		(at 182.88 91.44)
@@ -3670,12 +3686,6 @@
 		(uuid "420111e9-5dab-4491-b2f9-d84832cb482d")
 	)
 	(junction
-		(at 91.44 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52bf1ca3-5409-4ae6-aab0-f4824d768210")
-	)
-	(junction
 		(at 116.84 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3688,16 +3698,22 @@
 		(uuid "594f3bb9-0cff-4543-8c09-77db414cb80a")
 	)
 	(junction
-		(at 91.44 93.98)
+		(at 111.76 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79f8d418-dc68-464f-8fad-2af66487dfa0")
+		(uuid "5f13c07c-5eb9-437f-be3e-d6afea2b1e7c")
 	)
 	(junction
 		(at 193.04 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d0626a4-cd20-457b-a5b8-19f00d274cc0")
+	)
+	(junction
+		(at 91.44 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a69e563-e01d-4f27-95c7-e85cde9690a4")
 	)
 	(junction
 		(at 203.2 91.44)
@@ -3712,10 +3728,10 @@
 		(uuid "a111b4c0-c934-43c6-a949-71355b11ce39")
 	)
 	(junction
-		(at 91.44 142.24)
+		(at 111.76 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6817ef7-54e7-41ae-924b-57533f5c1d1d")
+		(uuid "a1b178f9-6547-4318-b724-e33373a83ac0")
 	)
 	(junction
 		(at 213.36 111.76)
@@ -3730,16 +3746,16 @@
 		(uuid "bd98da22-79f8-492c-b861-076048b51123")
 	)
 	(junction
-		(at 111.76 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf38da8c-1ad7-4a9f-834f-7082b4b175b5")
-	)
-	(junction
 		(at 144.78 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6bd6e15-3091-47f0-8286-046b6428e468")
+	)
+	(junction
+		(at 91.44 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d46168fc-c316-40a2-95f7-64102e291577")
 	)
 	(junction
 		(at 157.48 144.78)
@@ -3760,18 +3776,6 @@
 		(uuid "e4a3089b-05fc-4f23-88bd-3a9b9e44974f")
 	)
 	(junction
-		(at 111.76 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6a7e90c-bb68-402e-a00f-45f12979f450")
-	)
-	(junction
-		(at 111.76 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ead63326-ac35-4baa-881b-ac6ea7b50510")
-	)
-	(junction
 		(at 203.2 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3788,6 +3792,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f918eff6-222b-40b6-bfb1-b8771facf510")
+	)
+	(junction
+		(at 111.76 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fee017ea-3bff-43c3-b6bd-834391349392")
 	)
 	(wire
 		(pts
@@ -3821,6 +3831,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 81.28) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09eb1ce8-7511-4f8c-b5a3-073492f80740")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 93.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a11389b-9aa6-4af7-98c5-e3fd15d66e8b")
+	)
+	(wire
+		(pts
 			(xy 76.2 134.62) (xy 78.74 134.62)
 		)
 		(stroke
@@ -3828,36 +3858,6 @@
 			(type default)
 		)
 		(uuid "0aee90c7-1a71-433d-9621-69540b7672f3")
-	)
-	(wire
-		(pts
-			(xy 111.76 149.86) (xy 111.76 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d4573c1-de7a-43a3-b53d-aa12d5965ed6")
-	)
-	(wire
-		(pts
-			(xy 93.98 129.54) (xy 91.44 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e475594-0b11-4325-90ae-dd06e941bd9a")
-	)
-	(wire
-		(pts
-			(xy 106.68 101.6) (xy 111.76 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "125fc223-8159-4257-a212-78cdadea39a1")
 	)
 	(wire
 		(pts
@@ -3871,16 +3871,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 101.6) (xy 91.44 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e73223-3c15-44b9-a76a-68bea3923d0b")
-	)
-	(wire
-		(pts
 			(xy 226.06 114.3) (xy 231.14 114.3)
 		)
 		(stroke
@@ -3888,6 +3878,16 @@
 			(type default)
 		)
 		(uuid "1b0239e8-419a-493a-afce-e9fa9836e84f")
+	)
+	(wire
+		(pts
+			(xy 111.76 149.86) (xy 111.76 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b34db4d-8d06-4846-a756-87af89e4849c")
 	)
 	(wire
 		(pts
@@ -3941,36 +3941,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 93.98) (xy 91.44 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "243fe74b-b787-468e-b485-59d6e12642a9")
-	)
-	(wire
-		(pts
-			(xy 91.44 129.54) (xy 91.44 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2536f4b7-d016-4136-9a8e-d7ec9dc01539")
-	)
-	(wire
-		(pts
-			(xy 91.44 109.22) (xy 91.44 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a793a5b-b3dd-412c-93c0-ea1ae6fa2526")
-	)
-	(wire
-		(pts
 			(xy 177.8 114.3) (xy 177.8 111.76)
 		)
 		(stroke
@@ -3981,13 +3951,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 91.44) (xy 111.76 91.44)
+			(xy 91.44 134.62) (xy 93.98 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30921c95-9a2c-4120-9c92-937ec8e5f5ec")
+		(uuid "2e627c49-1702-4814-be98-6f1c108223e2")
 	)
 	(wire
 		(pts
@@ -4021,6 +3991,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 88.9) (xy 66.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bd8fa3-fd0c-4474-b3f0-d1b015e47e8c")
+	)
+	(wire
+		(pts
 			(xy 116.84 91.44) (xy 119.38 91.44)
 		)
 		(stroke
@@ -4041,6 +4021,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 142.24) (xy 111.76 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4a4fef-d12e-4ed1-9722-3b9adb233383")
+	)
+	(wire
+		(pts
 			(xy 182.88 132.08) (xy 193.04 132.08)
 		)
 		(stroke
@@ -4048,26 +4038,6 @@
 			(type default)
 		)
 		(uuid "3d698e91-80ef-4131-9906-cf166ff428d7")
-	)
-	(wire
-		(pts
-			(xy 111.76 132.08) (xy 111.76 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e47e54d-8e93-4ff7-9d8c-d32c8b9f906f")
-	)
-	(wire
-		(pts
-			(xy 99.06 149.86) (xy 91.44 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e99da71-1025-4256-8ec7-74c4b4830a4a")
 	)
 	(wire
 		(pts
@@ -4081,23 +4051,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 93.98) (xy 78.74 93.98)
+			(xy 76.2 88.9) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "427ec223-5d26-473e-8122-9802c95ff761")
-	)
-	(wire
-		(pts
-			(xy 66.04 93.98) (xy 66.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "431479bb-d8b9-418c-b3ca-f7d9363ebf2f")
 	)
 	(wire
 		(pts
@@ -4121,13 +4081,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 91.44) (xy 116.84 91.44)
+			(xy 111.76 81.28) (xy 111.76 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48f2cec7-06e8-4756-91a7-6b68decb998f")
+		(uuid "490a7c95-46cc-4909-97dc-b83105270590")
+	)
+	(wire
+		(pts
+			(xy 99.06 149.86) (xy 91.44 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a117245-15d3-46db-a4bb-36b1b174fd48")
 	)
 	(wire
 		(pts
@@ -4151,13 +4121,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 93.98) (xy 66.04 93.98)
+			(xy 55.88 88.9) (xy 66.04 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "508b463e-c539-4ad8-a226-a34aca34950f")
+	)
+	(wire
+		(pts
+			(xy 111.76 132.08) (xy 116.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508f7d7c-dad2-4362-bf50-7021ffd4ccbb")
 	)
 	(wire
 		(pts
@@ -4198,6 +4178,16 @@
 			(type default)
 		)
 		(uuid "53b9ac4d-f274-4ea0-871e-6d2d7522e66e")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be6d33f-f3ef-4fce-96b6-7cda8d2576ab")
 	)
 	(wire
 		(pts
@@ -4251,16 +4241,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 142.24) (xy 111.76 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6934ff76-5e95-40c5-aa97-58fb419ea80d")
-	)
-	(wire
-		(pts
 			(xy 193.04 91.44) (xy 203.2 91.44)
 		)
 		(stroke
@@ -4291,6 +4271,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 134.62) (xy 91.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72923ab1-585c-4964-8ada-28d98a9e61fc")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7591d172-6fef-4144-bf56-fc859a11e00d")
+	)
+	(wire
+		(pts
 			(xy 162.56 132.08) (xy 170.18 132.08)
 		)
 		(stroke
@@ -4311,7 +4311,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 93.98) (xy 55.88 109.22)
+			(xy 55.88 88.9) (xy 55.88 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4338,6 +4338,16 @@
 			(type default)
 		)
 		(uuid "812d2800-742b-4f4b-bc71-bb4ecbe916fb")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 91.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821b852f-8d77-48ca-8673-20fc9e5ae70d")
 	)
 	(wire
 		(pts
@@ -4421,6 +4431,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 91.44) (xy 111.76 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcfbc69-d394-4d79-bf41-8827a83c0be9")
+	)
+	(wire
+		(pts
 			(xy 132.08 144.78) (xy 139.7 144.78)
 		)
 		(stroke
@@ -4441,13 +4461,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 132.08) (xy 116.84 132.08)
+			(xy 104.14 149.86) (xy 111.76 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f108734-9fc0-4928-8d97-a1dc27faa7c7")
+		(uuid "9e428c51-607a-4ee9-ba03-a1e0c4060de2")
 	)
 	(wire
 		(pts
@@ -4461,13 +4481,33 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 93.98) (xy 71.12 93.98)
+			(xy 66.04 88.9) (xy 71.12 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9ffb5499-5e75-4474-a342-a2b89c337195")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d692d5-04c4-46f6-b846-bec8ebb364b6")
+	)
+	(wire
+		(pts
+			(xy 91.44 81.28) (xy 91.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a507c208-700b-413c-a4dd-d9d5d577ab51")
 	)
 	(wire
 		(pts
@@ -4481,16 +4521,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 134.62) (xy 91.44 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7c8b413-965a-4173-96bc-b7d84913a781")
-	)
-	(wire
-		(pts
 			(xy 144.78 71.12) (xy 149.86 71.12)
 		)
 		(stroke
@@ -4501,16 +4531,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 149.86) (xy 91.44 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa551702-3bda-4151-8308-632358a22101")
-	)
-	(wire
-		(pts
 			(xy 182.88 91.44) (xy 193.04 91.44)
 		)
 		(stroke
@@ -4518,6 +4538,16 @@
 			(type default)
 		)
 		(uuid "aadd25b4-f36d-493d-a4ee-3901a61644c3")
+	)
+	(wire
+		(pts
+			(xy 96.52 142.24) (xy 91.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab258a04-014b-4b51-89d0-2fe2d7f451cc")
 	)
 	(wire
 		(pts
@@ -4551,6 +4581,26 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 142.24) (xy 111.76 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12ff04b-8ec2-4634-a2b9-ffaa223fe7e5")
+	)
+	(wire
+		(pts
+			(xy 106.68 81.28) (xy 111.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17254d9-2455-4cea-a2cf-085f0fd27937")
+	)
+	(wire
+		(pts
 			(xy 132.08 71.12) (xy 134.62 71.12)
 		)
 		(stroke
@@ -4561,16 +4611,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 88.9) (xy 91.44 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b42f5a96-b5d3-43da-af7d-6cc2ab618ae8")
-	)
-	(wire
-		(pts
 			(xy 213.36 91.44) (xy 213.36 93.98)
 		)
 		(stroke
@@ -4578,6 +4618,16 @@
 			(type default)
 		)
 		(uuid "b7bebc3f-b5bc-4a5d-8d32-441faab6e928")
+	)
+	(wire
+		(pts
+			(xy 91.44 142.24) (xy 91.44 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ff01b8-9f0d-4360-ab45-ddeebc9eb052")
 	)
 	(wire
 		(pts
@@ -4601,36 +4651,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 101.6) (xy 91.44 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bee14dd7-ce6a-4769-9dba-f3240fe3d0e8")
-	)
-	(wire
-		(pts
-			(xy 99.06 109.22) (xy 91.44 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1e2aa7a-055f-43c3-9644-48a33b5d21ee")
-	)
-	(wire
-		(pts
-			(xy 91.44 134.62) (xy 93.98 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2c3949b-1081-4c06-97f0-e3307972cda8")
-	)
-	(wire
-		(pts
 			(xy 157.48 71.12) (xy 182.88 71.12)
 		)
 		(stroke
@@ -4641,17 +4661,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 109.22) (xy 111.76 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ab4926-7738-4c5c-be9b-975faa79dc0c")
-	)
-	(wire
-		(pts
-			(xy 91.44 93.98) (xy 93.98 93.98)
+			(xy 88.9 88.9) (xy 91.44 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4728,26 +4738,6 @@
 			(type default)
 		)
 		(uuid "d74a0588-9bdc-4143-885b-9f1029b64caf")
-	)
-	(wire
-		(pts
-			(xy 93.98 88.9) (xy 91.44 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d940a5cb-fa88-430b-8466-d8d94cd430ee")
-	)
-	(wire
-		(pts
-			(xy 111.76 91.44) (xy 111.76 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbab71c4-426b-4966-aa72-f9a0781abcca")
 	)
 	(wire
 		(pts
@@ -4841,23 +4831,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 149.86) (xy 111.76 149.86)
+			(xy 111.76 73.66) (xy 111.76 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1c01c0c-c8d7-4a59-9903-b95e3e3b83eb")
-	)
-	(wire
-		(pts
-			(xy 96.52 142.24) (xy 91.44 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f36000f0-8e32-4bf4-a395-3023ac87baac")
+		(uuid "f4a09a6e-96ac-4ce0-a240-e6b66ad20880")
 	)
 	(wire
 		(pts
@@ -4869,19 +4849,9 @@
 		)
 		(uuid "f53de37d-8b4a-49fd-a816-930ffb016010")
 	)
-	(wire
-		(pts
-			(xy 104.14 109.22) (xy 111.76 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff4fb7ce-5d2b-4e2b-8f7e-396c1b4ad6c5")
-	)
 	(symbol
 		(lib_id "tronixio:+VBIAS")
-		(at 91.44 124.46 0)
+		(at 93.98 129.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4889,10 +4859,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "05333002-35af-417a-961f-71adc13db649")
 		(property "Reference" "#PWR0105"
-			(at 91.44 134.62 0)
+			(at 104.14 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,7 +4872,7 @@
 			)
 		)
 		(property "Value" "+VBIAS"
-			(at 91.44 137.16 0)
+			(at 106.68 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4914,7 +4883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 124.46 0)
+			(at 93.98 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4925,7 +4894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 124.46 0)
+			(at 93.98 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4936,13 +4905,14 @@
 			)
 		)
 		(property "Description" "VBIAS"
-			(at 91.44 119.38 0)
+			(at 89.535 129.54 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.15 1.15)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -6104,7 +6074,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:CAPACITOR-1206-22P-100V-1P-COG")
-		(at 101.6 109.22 90)
+		(at 101.6 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6114,7 +6084,7 @@
 		(dnp no)
 		(uuid "3c0a8ca7-d0e0-47e6-84a2-954c05c22860")
 		(property "Reference" "C109"
-			(at 101.6 106.68 90)
+			(at 101.6 71.12 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6124,7 +6094,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 101.6 111.76 90)
+			(at 101.6 76.2 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6134,7 +6104,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
-			(at 111.76 109.22 0)
+			(at 111.76 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -6145,7 +6115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 109.22 0)
+			(at 104.14 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6156,7 +6126,7 @@
 			)
 		)
 		(property "Description" "Capacitor Unpolarized"
-			(at 116.84 109.22 0)
+			(at 116.84 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6137,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 101.6 113.665 90)
+			(at 101.6 69.215 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6177,7 +6147,7 @@
 			)
 		)
 		(property "Voltage" "100V"
-			(at 109.22 108.585 0)
+			(at 109.22 73.025 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -6189,7 +6159,7 @@
 			)
 		)
 		(property "Mouser" "581-12061A220FAT2A"
-			(at 114.3 109.22 0)
+			(at 114.3 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -6704,7 +6674,7 @@
 		(dnp no)
 		(uuid "5782d021-3a4b-4649-8af3-b047afa743f3")
 		(property "Reference" "R109"
-			(at 101.6 139.7 90)
+			(at 101.6 144.78 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6757,7 +6727,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 101.6 144.78 90)
+			(at 101.6 139.7 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7015,7 +6985,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:RESISTOR-1206-10K-1P")
-		(at 101.6 101.6 90)
+		(at 101.6 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7025,7 +6995,7 @@
 		(dnp no)
 		(uuid "65b4ad41-e18b-45e6-9ece-e12f94a51d48")
 		(property "Reference" "R104"
-			(at 101.6 99.06 90)
+			(at 101.6 78.74 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7035,7 +7005,7 @@
 			)
 		)
 		(property "Value" "10k0"
-			(at 101.6 101.6 90)
+			(at 101.6 81.28 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7045,7 +7015,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 114.3 101.6 0)
+			(at 114.3 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7056,7 +7026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 101.6 0)
+			(at 101.6 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7067,7 +7037,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 101.6 0)
+			(at 119.38 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7078,7 +7048,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 101.6 104.14 90)
+			(at 101.6 83.82 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7088,7 +7058,7 @@
 			)
 		)
 		(property "Mouser" "603-RT1206FRE1310KL"
-			(at 116.84 101.6 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7281,7 +7251,6 @@
 	(symbol
 		(lib_id "tronixio:TI-OPA134-SOIC")
 		(at 101.6 91.44 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7291,7 +7260,7 @@
 		(dnp no)
 		(uuid "7c9764c3-21e3-4939-b59f-d5e9c11eddfc")
 		(property "Reference" "U101"
-			(at 101.6 85.725 0)
+			(at 101.6 97.155 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7302,7 +7271,7 @@
 			)
 		)
 		(property "Value" "OPA134"
-			(at 101.6 87.63 0)
+			(at 101.6 95.25 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -7313,7 +7282,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:SOIC-08"
-			(at 101.6 76.2 0)
+			(at 101.6 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7324,7 +7293,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/product/OPA134"
-			(at 101.6 73.66 0)
+			(at 101.6 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7335,7 +7304,7 @@
 			)
 		)
 		(property "Description" "IC OPA - Single SoundPlus 8-MHz, 50-pA, high-performance audio op amp with FET inputs"
-			(at 101.6 71.12 0)
+			(at 101.6 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,7 +7315,7 @@
 			)
 		)
 		(property "Mouser" "595-OPA134UA/2K5"
-			(at 101.6 66.04 0)
+			(at 101.6 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7357,7 +7326,7 @@
 			)
 		)
 		(property "Part Marking" "OPA134UA"
-			(at 101.6 68.58 0)
+			(at 101.6 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7993,7 +7962,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:WURTH-WCAP-ASLL-10U-16V")
-		(at 73.66 93.98 270)
+		(at 73.66 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8003,7 +7972,7 @@
 		(dnp no)
 		(uuid "94de9f28-4f4e-4e93-bc25-08c664e577dc")
 		(property "Reference" "C104"
-			(at 73.66 91.44 90)
+			(at 73.66 86.36 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8013,7 +7982,7 @@
 			)
 		)
 		(property "Value" "10µ"
-			(at 73.66 96.52 90)
+			(at 73.66 91.44 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8023,7 +7992,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:CAPACITOR-ELECTROLYTIC-SMD-040-055-WURTH"
-			(at 63.5 93.98 0)
+			(at 63.5 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8034,7 +8003,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/865060340001.pdf"
-			(at 60.96 93.98 0)
+			(at 60.96 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8045,7 +8014,7 @@
 			)
 		)
 		(property "Description" "Polarized Capacitor"
-			(at 53.34 93.98 0)
+			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8025,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 66.04 94.615 0)
+			(at 66.04 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -8068,7 +8037,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 73.66 98.425 90)
+			(at 73.66 93.345 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8078,7 +8047,7 @@
 			)
 		)
 		(property "Mouser" "710-865060340001"
-			(at 50.8 93.98 0)
+			(at 50.8 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8089,7 +8058,7 @@
 			)
 		)
 		(property "Life" "2000H"
-			(at 55.88 93.98 0)
+			(at 55.88 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8100,7 +8069,7 @@
 			)
 		)
 		(property "Serie" "WCAP-ASLL"
-			(at 58.42 93.98 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9081,7 +9050,7 @@
 		(dnp no)
 		(uuid "c01bc4cf-5a74-40e0-b3bd-b16d6af23dde")
 		(property "Reference" "C116"
-			(at 101.6 147.32 90)
+			(at 101.6 152.4 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9091,7 +9060,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 101.6 152.4 90)
+			(at 101.6 147.32 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9183,7 +9152,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+VBIAS")
-		(at 91.44 83.82 0)
+		(at 93.98 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9191,10 +9160,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2e5b5b8-b43a-4378-851b-ec682cd5817c")
 		(property "Reference" "#PWR0102"
-			(at 91.44 93.98 0)
+			(at 104.14 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,7 +9173,7 @@
 			)
 		)
 		(property "Value" "+VBIAS"
-			(at 91.44 96.52 0)
+			(at 106.68 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9216,7 +9184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 83.82 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9227,7 +9195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 83.82 0)
+			(at 93.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9238,13 +9206,14 @@
 			)
 		)
 		(property "Description" "VBIAS"
-			(at 91.44 78.74 0)
+			(at 89.535 93.98 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.15 1.15)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -9459,7 +9428,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:RESISTOR-1206-10K-1P")
-		(at 83.82 93.98 90)
+		(at 83.82 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9469,7 +9438,7 @@
 		(dnp no)
 		(uuid "d391f7eb-08b4-4f9a-a25f-32fa33ca4fa7")
 		(property "Reference" "R103"
-			(at 83.82 91.44 90)
+			(at 83.82 86.36 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9479,7 +9448,7 @@
 			)
 		)
 		(property "Value" "10k0"
-			(at 83.82 93.98 90)
+			(at 83.82 88.9 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9489,7 +9458,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 96.52 93.98 0)
+			(at 96.52 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -9500,7 +9469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 93.98 0)
+			(at 83.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9511,7 +9480,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 93.98 0)
+			(at 101.6 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -9522,7 +9491,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 83.82 96.52 90)
+			(at 83.82 91.44 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9532,7 +9501,7 @@
 			)
 		)
 		(property "Mouser" "603-RT1206FRE1310KL"
-			(at 99.06 93.98 0)
+			(at 99.06 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)

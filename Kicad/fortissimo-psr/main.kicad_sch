@@ -2252,172 +2252,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tronixio:KINGBRIGHT-LED-05MM-ORANGE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LED"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-				)
-			)
-			(property "Value" "ORANGE"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-				)
-			)
-			(property "Footprint" "tronixio:LED-TH-ROUND-05MM"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ND.pdf"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Description" "Light Emitting Diode"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Mouser" "604-WP7113ND"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(symbol "KINGBRIGHT-LED-05MM-ORANGE_0_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end -0.762 -1.27)
-					(stroke
-						(width 0.001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.524) (xy 0.508 2.54) (xy 0.254 2.032) (xy 0 2.286) (xy 0.508 2.54)
-					)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.524) (xy 1.524 2.54) (xy 1.27 2.032) (xy 1.016 2.286) (xy 1.524 2.54)
-					)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -1.27) (xy 1.524 1.27) (xy -0.762 0) (xy 1.524 -1.27)
-					)
-					(stroke
-						(width 0.001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "KINGBRIGHT-LED-05MM-ORANGE_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "C"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "tronixio:MOLEX-MIGHTY-SPOX-F-1X04"
 			(pin_numbers
 				(hide yes)
@@ -5549,148 +5383,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tronixio:RESISTOR-2512-3K9-1P-1W"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0.635 3.81 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "3k90"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-				)
-			)
-			(property "Footprint" "tronixio:RESISTOR-SMD-2512"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0.635 -3.81 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-					(justify left)
-				)
-			)
-			(property "Mouser" "603-RC2512FK-073K9L"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace yes)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(symbol "RESISTOR-2512-3K9-1P-1W_0_1"
-				(rectangle
-					(start -1.27 -2.54)
-					(end 1.27 2.54)
-					(stroke
-						(width 0.4)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RESISTOR-2512-3K9-1P-1W_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "tronixio:RESISTOR-2512-47R-1P-1W"
 			(pin_numbers
 				(hide yes)
@@ -5936,6 +5628,148 @@
 				)
 			)
 			(symbol "RESISTOR-2512-4K7-1P-1W_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "tronixio:RESISTOR-2512-56K-1P-1W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.635 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "56k0"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:RESISTOR-SMD-2512"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0.635 -3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Mouser" "603-RC2512FK-0756KL"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(symbol "RESISTOR-2512-56K-1P-1W_0_1"
+				(rectangle
+					(start -1.27 -2.54)
+					(end 1.27 2.54)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RESISTOR-2512-56K-1P-1W_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -7407,6 +7241,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "tronixio:VCC-LED-05MM-BLUE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Value" "BLUE"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:LED-TH-ROUND-05MM"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Datasheet" "https://vcc.co/products/led-through-hole-5mm-t-1-3-4-blue-470-nm-1500-mcd-3-5v_vaol-5lsby1/"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Description" "LED"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Mouser" "593-VAOL-5LSBY1"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(symbol "VCC-LED-05MM-BLUE_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end -0.762 -1.27)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.524) (xy 0.508 2.54) (xy 0.254 2.032) (xy 0 2.286) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.524) (xy 1.524 2.54) (xy 1.27 2.032) (xy 1.016 2.286) (xy 1.524 2.54)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 1.27) (xy -0.762 0) (xy 1.524 -1.27)
+					)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VCC-LED-05MM-BLUE_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "C"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "tronixio:WAKEFIELD-657-25ABEP"
 			(pin_numbers
 				(hide yes)
@@ -7898,17 +7898,6 @@
 		)
 		(uuid "3cc70d46-5b47-498d-bb09-eec78995e06a")
 	)
-	(text "TODO:\n\n- Changer Diode"
-		(exclude_from_sim no)
-		(at 15.875 16.51 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-			(justify left top)
-		)
-		(uuid "77febb22-b0e6-437a-9adc-fa44004baf09")
-	)
 	(text "GND"
 		(exclude_from_sim no)
 		(at 22.86 95.25 0)
@@ -8163,6 +8152,12 @@
 		(uuid "446a4d7a-20f9-4d4a-b3d6-597ff271cf68")
 	)
 	(junction
+		(at 74.93 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47f88d7d-df0f-4d95-89cd-7f86b195bcdd")
+	)
+	(junction
 		(at 144.78 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8247,6 +8242,12 @@
 		(uuid "59ce9a8a-e555-4ffe-b9f0-7dcb2d31d177")
 	)
 	(junction
+		(at 30.48 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bd92d6a-d271-48bd-8733-d16d7d67f395")
+	)
+	(junction
 		(at 185.42 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8257,12 +8258,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e6404c8-4fc4-424c-bad5-7a79bf6caa9f")
-	)
-	(junction
-		(at 74.93 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "624d4bf8-6179-45fd-a85f-625065f67d78")
 	)
 	(junction
 		(at 251.46 139.7)
@@ -8373,7 +8368,7 @@
 		(uuid "7ead8766-2fec-4357-8d60-670212befb7d")
 	)
 	(junction
-		(at 38.1 96.52)
+		(at 35.56 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fdc618f-5615-47b9-8267-9b6f5f99fdcd")
@@ -8473,12 +8468,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43d541c-910c-4a40-b613-06727f87430e")
-	)
-	(junction
-		(at 35.56 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a541cb87-6ae3-46e7-b0f0-9d12bc062a4d")
 	)
 	(junction
 		(at 209.55 96.52)
@@ -8892,7 +8881,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 96.52) (xy 38.1 99.06)
+			(xy 35.56 96.52) (xy 35.56 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9742,7 +9731,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 96.52) (xy 74.93 96.52)
+			(xy 35.56 96.52) (xy 74.93 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10369,16 +10358,6 @@
 			(type default)
 		)
 		(uuid "7635193e-e7a0-4316-a8ed-6d18fd1079e0")
-	)
-	(wire
-		(pts
-			(xy 38.1 96.52) (xy 35.56 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d5a392-4b29-4c82-8bb6-b53591e906f1")
 	)
 	(wire
 		(pts
@@ -11582,6 +11561,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 96.52) (xy 35.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf31894d-e875-4995-8f05-1d54e09e62c1")
+	)
+	(wire
+		(pts
 			(xy 116.84 147.32) (xy 116.84 162.56)
 		)
 		(stroke
@@ -11622,7 +11611,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 93.98) (xy 35.56 93.98)
+			(xy 27.94 93.98) (xy 30.48 93.98)
 		)
 		(stroke
 			(width 0)
@@ -11832,7 +11821,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 93.98) (xy 35.56 96.52)
+			(xy 30.48 93.98) (xy 30.48 96.52)
 		)
 		(stroke
 			(width 0)
@@ -11882,7 +11871,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 96.52) (xy 35.56 96.52)
+			(xy 27.94 96.52) (xy 30.48 96.52)
 		)
 		(stroke
 			(width 0)
@@ -20625,7 +20614,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:RESISTOR-2512-3K9-1P-1W")
+		(lib_id "tronixio:RESISTOR-2512-56K-1P-1W")
 		(at 241.3 124.46 0)
 		(unit 1)
 		(body_style 1)
@@ -20647,7 +20636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k90"
+		(property "Value" "56k0"
 			(at 241.3 124.46 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -20661,7 +20650,7 @@
 			(at 241.3 137.16 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -20686,7 +20675,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
@@ -20701,11 +20690,11 @@
 				(justify left)
 			)
 		)
-		(property "Mouser" "603-RC2512FK-073K9L"
+		(property "Mouser" "603-RC2512FK-0756KL"
 			(at 241.3 139.7 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -20922,7 +20911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:KINGBRIGHT-LED-05MM-ORANGE")
+		(lib_id "tronixio:VCC-LED-05MM-BLUE")
 		(at 241.3 109.22 270)
 		(mirror x)
 		(unit 1)
@@ -20966,7 +20955,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ND.pdf"
+		(property "Datasheet" "https://vcc.co/products/led-through-hole-5mm-t-1-3-4-blue-470-nm-1500-mcd-3-5v_vaol-5lsby1/"
 			(at 233.68 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -20977,18 +20966,18 @@
 				)
 			)
 		)
-		(property "Description" "Light Emitting Diode"
+		(property "Description" "LED"
 			(at 241.3 109.22 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
 			)
 		)
-		(property "Mouser" "604-WP7113ND"
+		(property "Mouser" "593-VAOL-5LSBY1"
 			(at 231.14 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -22075,7 +22064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:RESISTOR-2512-3K9-1P-1W")
+		(lib_id "tronixio:RESISTOR-2512-56K-1P-1W")
 		(at 241.3 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -22096,7 +22085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k90"
+		(property "Value" "56k0"
 			(at 241.3 68.58 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -22110,7 +22099,7 @@
 			(at 241.3 81.28 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -22135,7 +22124,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
@@ -22150,11 +22139,11 @@
 				(justify left)
 			)
 		)
-		(property "Mouser" "603-RC2512FK-073K9L"
+		(property "Mouser" "603-RC2512FK-0756KL"
 			(at 241.3 83.82 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -23474,7 +23463,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:KINGBRIGHT-LED-05MM-ORANGE")
+		(lib_id "tronixio:VCC-LED-05MM-BLUE")
 		(at 241.3 83.82 270)
 		(mirror x)
 		(unit 1)
@@ -23518,7 +23507,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ND.pdf"
+		(property "Datasheet" "https://vcc.co/products/led-through-hole-5mm-t-1-3-4-blue-470-nm-1500-mcd-3-5v_vaol-5lsby1/"
 			(at 233.68 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -23529,18 +23518,18 @@
 				)
 			)
 		)
-		(property "Description" "Light Emitting Diode"
+		(property "Description" "LED"
 			(at 241.3 83.82 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace yes)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
 			)
 		)
-		(property "Mouser" "604-WP7113ND"
+		(property "Mouser" "593-VAOL-5LSBY1"
 			(at 231.14 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -26525,7 +26514,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:GND")
-		(at 38.1 99.06 0)
+		(at 35.56 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26536,7 +26525,7 @@
 		(fields_autoplaced yes)
 		(uuid "fecb325d-ead4-43b4-926b-b96bd7c96c47")
 		(property "Reference" "#PWR01"
-			(at 38.1 104.14 0)
+			(at 35.56 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26547,7 +26536,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 106.68 0)
+			(at 35.56 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -26558,7 +26547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 99.06 0)
+			(at 35.56 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26569,7 +26558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 99.06 0)
+			(at 35.56 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26580,7 +26569,7 @@
 			)
 		)
 		(property "Description" "GND"
-			(at 38.1 99.06 0)
+			(at 35.56 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
