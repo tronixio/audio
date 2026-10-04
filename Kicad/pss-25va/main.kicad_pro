@@ -298,7 +298,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "four_way_junction|1955800|685800|67f67807-dc7b-4adb-8460-4b44a275d0b6|452ab13f-647d-4793-8964-f7dc95890f87|/0872ac03-b66e-497d-9e92-aaf5bfffb639||",
+        ""
+      ],
+      [
+        "four_way_junction|1955800|939800|900f3b3b-3ecf-4b82-8a35-a5d3d53683f3|077b2cab-03e5-4380-bb91-9e44ac7cc997|/0872ac03-b66e-497d-9e92-aaf5bfffb639||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -487,7 +496,7 @@
       "field_name_whitespace": "warning",
       "footprint_filter": "error",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "error",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",

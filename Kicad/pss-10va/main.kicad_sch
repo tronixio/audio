@@ -6481,7 +6481,7 @@
 		)
 		(uuid "d67a1be6-064f-43af-afab-db81c8fc6c50")
 	)
-	(text "70044K: 2x18, ~0.30A - F2/F3: 0.30A (MF-MSMF030)\n70043K: 2x15, ~0.35A - F2/F3: 0.30A (MF-MSMF030)\n70042K: 2x12, ~0.42A - F2/F3: 0.50A (MF-MSMF050/30X)\n70041K:  2x9, ~0.55A - F2/F3: 0.50A (MF-MSMF050/30X)\n70040K:  2x7, ~0.70A - F2/F3: 0.75A (MF-MSMF075)\n\n- https://sound-au.com/articles/power-supplies2.htm\n- https://daumemo.com/lm317-voltage-regulator-calculator-voltage-source/"
+	(text "Notes:\n\n- 70044K: 2x18, ~0.30A - F2/F3: 0.30A (MF-MSMF030)\n- 70043K: 2x15, ~0.35A - F2/F3: 0.30A (MF-MSMF030)\n- 70042K: 2x12, ~0.42A - F2/F3: 0.50A (MF-MSMF050/30X)\n- 70041K:  2x9, ~0.55A - F2/F3: 0.50A (MF-MSMF050/30X)\n- 70040K:  2x7, ~0.70A - F2/F3: 0.75A (MF-MSMF075)\n\n- https://sound-au.com/articles/power-supplies2.htm\n- https://daumemo.com/lm317-voltage-regulator-calculator-voltage-source/"
 		(exclude_from_sim no)
 		(at 15.875 194.31 0)
 		(effects

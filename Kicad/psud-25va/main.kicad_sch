@@ -3248,7 +3248,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "70064K: 2x18, ~0.7A - F2/F3: 0.75A (MF-MSMF075/24)\n70063K: 2x15, ~0.8A - F2/F3:  1.1A (MF-MSMF110/24X)\n70062K: 2x12,   ~1A - F2/F3:  1.1A (MF-MSMF110/24X)\n70061K:  2x9, ~1.3A - F2/F3: 1.25A (MF-MSMF125)\n70060K:  2x7, ~1.7A - F2/F3:  1.6A (MF-MSMF160)\n\n- https://sound-au.com/articles/power-supplies2.htm"
+	(text "Notes:\n\n- 70064K: 2x18, ~0.7A - F2/F3: 0.75A (MF-MSMF075/24)\n- 70063K: 2x15, ~0.8A - F2/F3:  1.1A (MF-MSMF110/24X)\n- 70062K: 2x12,   ~1A - F2/F3:  1.1A (MF-MSMF110/24X)\n- 70061K:  2x9, ~1.3A - F2/F3: 1.25A (MF-MSMF125)\n- 70060K:  2x7, ~1.7A - F2/F3:  1.6A (MF-MSMF160)\n\n- https://sound-au.com/articles/power-supplies2.htm"
 		(exclude_from_sim no)
 		(at 15.875 194.31 0)
 		(effects
